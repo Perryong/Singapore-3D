@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<title>geo.js checks</title>
+<script type="importmap">
+  {"imports": {"three": "https://unpkg.com/three@0.164.0/build/three.module.js",
+               "three/addons/": "https://unpkg.com/three@0.164.0/examples/jsm/"}}
+</script>
+<pre id="out"></pre>
+<script type="module">
+  import * as THREE from 'three';
+  import { polyMesh, lineSegments, ribbonMesh, extrudeMesh, plateMesh, PLATE_DEPTH } from './geo.js';
+
+  const square = { type: 'polys', features: [
+    { p: [[[0, 0], [2, 0], [2, 2], [0, 2]]], k: 'a', v: 3 },
+    { p: [[[5, 5], [6, 5], [6, 6], [5, 6]]], k: 'b', v: 1 },
+  ]};
+  const path = { type: 'lines', features: [{ p: [[0, 0], [1, 0], [1, 1]], k: 'primary' }] };
+
+  const results = [];
+  const check = (name, ok) => results.push(`${ok ? 'PASS' : 'FAIL'} ${name}`);
+
+  const m = polyMesh(square, { color: 0xff0000, y: 0.5 });
+  check('polyMesh builds a mesh', m.isMesh);
+  check('polyMesh sits at y', m.position.y === 0.5);
+  m.geometry.computeBoundingBox();
+  check('polyMesh spans both squares', m.geometry.boundingBox.max.x >= 6 - 1e-6);
+
+  const f = polyMesh(square, { color: 0xff0000, y: 0, filter: (ft) => ft.k === 'a' });
+  f.geometry.computeBoundingBox();
+  check('filter drops feature b', f.geometry.boundingBox.max.x <= 2 + 1e-6);
+
+  const ls = lineSegments(path, { color: 0, y: 0 });
+  check('lineSegments has 2 segments (4 verts)', ls.geometry.attributes.position.count === 4);
+
+  const rb = ribbonMesh(path, { color: 0, y: 0, width: 0.2 });
+  check('ribbon is a mesh with faces', rb.isMesh && rb.geometry.index.count >= 12);
+
+  const ex = extrudeMesh(square, { y: 0, heightFn: (ft) => ft.v, colorFn: () => 0x123456 });
+  ex.geometry.computeBoundingBox();
+  check('extrude height follows heightFn', Math.abs(ex.geometry.boundingBox.max.y - 3) < 1e-6);
+  check('extrude has vertex colours', Boolean(ex.geometry.attributes.color));
+
+  const pl = plateMesh(square, { color: 0xf3ede2, side: 0xd9d0bd, outline: 0, y: 0 });
+  const pb = new THREE.Box3().setFromObject(pl);
+  check('plate is a slab of PLATE_DEPTH', Math.abs(pb.max.y - pb.min.y - PLATE_DEPTH) < 0.03);
+  check('plate cap is flagged', pl.children.some((c) => c.userData.isPlate));
+
+  const capGeo = pl.children.find((c) => c.userData.isPlate).geometry;
+  const idx = new Set(capGeo.groups.map((g) => g.materialIndex));
+  const covered = capGeo.groups.reduce((n, g) => n + g.count, 0);
+  check(
+    'plate cap keeps cap/side groups covering every vertex',
+    idx.has(0) && idx.has(1) && covered === capGeo.attributes.position.count
+  );
+
+  document.getElementById('out').textContent = results.join('\n');
+  console.log(results.join('\n'));
+</script>

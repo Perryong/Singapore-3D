@@ -1,0 +1,29 @@
+name: Deploy to GitHub Pages
+
+# Trigger: anything landing on `main` (a merged PR is a push to main),
+# plus a manual run from the Actions tab.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      # No build step: the site is static ES modules served from the repo
+      # root (index.html, urban.html, js/, css/, data/).
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4

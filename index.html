@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Singapore — Multi-dimensional urban analysis · Exploded layers</title>
+    <meta
+      name="description"
+      content="Seven exploded axonometric map layers of Singapore built from OpenStreetMap: natural systems, land use, transport, growth, density, fabric and regional context."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Saira+Condensed:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/urban.css" />
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.164.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.164.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="sheet">
+      <!-- ── Sheet header ─────────────────────────────────────────────── -->
+      <header class="sheet__head">
+        <div class="ident">
+          <h1 id="sheet-designation" class="ident__designation">SINGAPORE</h1>
+          <p id="sheet-type" class="ident__type">MULTI-DIMENSIONAL URBAN ANALYSIS</p>
+          <p class="ident__sub">
+            <span id="sheet-subtitle">Exploded axonometric · Seven analytical layers</span>
+          </p>
+        </div>
+
+        <dl class="titleblock">
+          <div><dt>Doc no</dt><dd id="tb-doc">—</dd></div>
+          <div><dt>Rev</dt><dd id="tb-rev">—</dd></div>
+          <div><dt>Scale</dt><dd id="tb-scale">—</dd></div>
+          <div><dt>Sheet</dt><dd id="tb-sheet">—</dd></div>
+        </dl>
+
+        <div class="mobile-tabs">
+          <button type="button" data-panel-toggle="bom" aria-expanded="false">Analysis layers</button>
+          <button type="button" data-panel-toggle="data" aria-expanded="false">Observations &amp; legend</button>
+        </div>
+      </header>
+
+      <!-- ── Body ─────────────────────────────────────────────────────── -->
+      <main class="sheet__body">
+        <!-- Parts list -->
+        <aside id="bom" class="panel panel--bom">
+          <div class="panel__head">
+            <h2>Analysis layers</h2>
+            <span id="bom-count" class="panel__meta"></span>
+          </div>
+          <ol id="bom-list" class="bom"></ol>
+        </aside>
+
+        <!-- 3D field -->
+        <section class="field">
+          <canvas id="field" aria-label="Exploded axonometric map layers of Singapore"></canvas>
+          <svg id="leader-layer" class="leaders" aria-hidden="true"></svg>
+          <div id="callout-layer" class="callouts"></div>
+
+          <p class="attrib">Imagery © Esri — Source: Esri, Maxar, Earthstar Geographics</p>
+
+          <div class="scale" role="img" aria-label="Scale bar, 0 to 25 kilometres">
+            <span class="scale__rule"><i></i><i></i><i></i><i></i><i></i></span>
+            <span class="scale__ticks"><b>0</b><b>5</b><b>10</b><b>15</b><b>20</b><b>25 km</b></span>
+          </div>
+          <svg class="compass" viewBox="0 0 60 60" role="img" aria-label="North">
+            <circle cx="30" cy="30" r="26" fill="none" stroke="#1a1a1a" stroke-width="1.2" />
+            <polygon points="30,6 36,30 30,26 24,30" fill="#1a1a1a" />
+            <polygon points="30,54 36,30 30,34 24,30" fill="none" stroke="#1a1a1a" stroke-width="1" />
+            <text x="30" y="17" text-anchor="middle" font-size="9" fill="#ffffff">N</text>
+          </svg>
+
+          <p class="hint">
+            Drag to rotate · scroll to zoom · right-drag to pan · click a layer for its legend · Esc to
+            deselect
+          </p>
+        </section>
+
+        <!-- Component data -->
+        <aside id="data" class="panel panel--data">
+          <div class="panel__head">
+            <h2>Observations &amp; legend</h2>
+            <span class="panel__meta" id="tb-status">—</span>
+          </div>
+          <div id="data-panel" class="data">
+            <p class="data__empty">Loading map layers…</p>
+          </div>
+          <div class="panel__actions">
+            <button type="button" id="btn-focus" data-needs-selection>Focus</button>
+            <button type="button" id="btn-isolate" data-needs-selection>Isolate</button>
+            <button type="button" id="btn-clear">Show all</button>
+          </div>
+        </aside>
+      </main>
+
+      <!-- ── Controls ─────────────────────────────────────────────────── -->
+      <footer class="sheet__foot">
+        <div class="control control--slider">
+          <label for="disassembly">Disassembly</label>
+          <input id="disassembly" type="range" min="0" max="100" step="1" value="0" />
+          <output id="disassembly-readout" for="disassembly">0 %</output>
+        </div>
+
+        <div class="control control--presets">
+          <button type="button" data-preset="0">Stacked</button>
+          <button type="button" data-preset="35">Spread</button>
+          <button type="button" data-preset="100">Exploded</button>
+        </div>
+
+        <div class="control control--toggles">
+          <label class="switch">
+            <input type="checkbox" id="toggle-callouts" checked />
+            <span>Callouts</span>
+          </label>
+          <label class="switch">
+            <input type="checkbox" id="toggle-rotate" />
+            <span>Auto-rotate</span>
+          </label>
+          <a id="view-link" class="reset" href="?view=poster">Poster</a>
+          <button type="button" id="btn-png" class="reset" hidden>Save PNG</button>
+          <button type="button" id="btn-reset" class="reset">Reset view</button>
+        </div>
+      </footer>
+    </div>
+
+    <canvas id="thumb-canvas" aria-hidden="true"></canvas>
+    <script type="module" src="./js/urban/app.js"></script>
+  </body>
+</html>

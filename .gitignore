@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.log
+.vscode/
+.idea/
+tools/.venv/
+tools/.cache/
+__pycache__/

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Singapore weather — live forecasts</title>
+    <meta
+      name="description"
+      content="Live 2-hour, 24-hour and 4-day Singapore weather forecasts from data.gov.sg on an interactive map."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Saira+Condensed:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/weather.css" />
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.164.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.164.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="sheet">
+      <header class="sheet__head">
+        <div class="ident">
+          <h1 class="ident__designation">SINGAPORE</h1>
+          <p class="ident__type">WEATHER FORECAST</p>
+          <p class="ident__sub">
+            Live from data.gov.sg · <span id="updated" aria-live="polite">loading…</span>
+            · <a href="./index.html">← Analysis board</a>
+          </p>
+        </div>
+        <div class="tabs">
+          <div role="tablist">
+            <button type="button" class="tab is-on" data-tab="radar" role="tab" aria-selected="true">Radar</button>
+            <button type="button" class="tab" data-tab="2h" role="tab" aria-selected="false">2-hour</button>
+            <button type="button" class="tab" data-tab="24h" role="tab" aria-selected="false">24-hour</button>
+            <button type="button" class="tab" data-tab="4d" role="tab" aria-selected="false">4-day</button>
+          </div>
+          <button type="button" id="btn-refresh" class="reset">Refresh</button>
+        </div>
+      </header>
+
+      <main class="wx-body">
+        <section class="field">
+          <canvas id="field" aria-label="Map of Singapore with weather forecasts"></canvas>
+          <div id="marker-layer"></div>
+          <p class="attrib">Imagery © Esri — Source: Esri, Maxar, Earthstar Geographics · Forecasts © data.gov.sg · Radar © NEA / weather.gov.sg</p>
+        </section>
+        <aside id="panel" class="panel panel--data">
+          <div class="panel__head"><h2 id="panel-title">Rain radar</h2></div>
+          <div id="panel-body" class="data" role="tabpanel"></div>
+        </aside>
+      </main>
+    </div>
+    <script type="module" src="./js/weather/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+@import url('./sheet.css');
+
+:root {
+  --ink: #ffffff;
+  --plate: #faf8f4;
+  --plate-2: #faf8f4;
+  --rule: #d9d4ca;
+  --rule-soft: #e8e4dc;
+  --line: #1a1a1a;
+  --text: #1a1a1a;
+  --dim: #6d6a63;
+  --dimmer: #9c988f;
+  --amber: #d9480f;
+}
+
+/* sheet.css hardcodes a near-white #e8f4ff title colour meant for the dark
+   sheet theme; override for the paper theme (mirrors urban.css). */
+.ident__designation { color: var(--text); }
+
+body { background: var(--ink); overflow: hidden; }
+.wx-body { display: grid; grid-template-columns: 1fr 340px; height: 100%; min-height: 0; }
+.sheet { display: grid; grid-template-rows: auto 1fr; height: 100dvh; }
+.field { background: var(--ink); }
+#field { position: absolute; inset: 0; width: 100%; height: 100%; }
+#marker-layer { position: absolute; inset: 0; pointer-events: none; }
+.tabs { display: flex; gap: 8px; align-items: center; }
+.tabs [role="tablist"] { display: flex; gap: 8px; }
+.tab { padding: 8px 14px; border: 1px solid var(--rule); background: none; font: 600 12px/1 var(--display); letter-spacing: 0.08em; text-transform: uppercase; }
+.tab.is-on { background: var(--amber); color: #fff; border-color: var(--amber); }
+.wx { position: absolute; transform: translate(-50%, -50%); pointer-events: auto; display: flex; flex-direction: column; align-items: center; gap: 0; background: none; border: none; padding: 2px; }
+.wx__icon { font-size: 17px; line-height: 1; filter: drop-shadow(0 0 2px #fff); }
+.wx__name { font-size: 9px; background: rgba(255,255,255,0.85); padding: 0 3px; display: none; }
+.wx:hover .wx__name, .wx.is-pinned .wx__name { display: block; }
+.wx--region .wx__icon { font-size: 30px; }
+.wx--region .wx__name { display: block; font-size: 10px; }
+.wx--dim { opacity: 0.35; }
+.chip { padding: 5px 10px; border: 1px solid var(--rule); background: none; font-size: 11px; }
+.chip.is-on { background: var(--text); color: var(--ink); }
+.wx-card { border-top: 1px solid var(--rule); padding: 10px 0; }
+.wx-card h3 { margin: 0 0 4px; font: 600 13px/1.2 var(--display); text-transform: uppercase; letter-spacing: 0.06em; }
+.wx-error { border: 1px solid var(--amber); padding: 10px; margin: 10px 0; font-size: 12px; }
+.attrib { position: absolute; left: 12px; bottom: 8px; margin: 0; font-size: 9px; color: var(--dimmer); }
+
+@media (max-width: 900px) {
+  .wx-body { grid-template-columns: 1fr; grid-template-rows: 1fr auto; }
+  .panel { position: static; transform: none; width: auto; max-height: 45vh; border-left: 0; border-top: 1px solid var(--rule); }
+}
+
+/* ── Radar tab ─────────────────────────────────────────────────────────── */
+.radar { position: absolute; pointer-events: none; opacity: 0.75; mix-blend-mode: multiply; }
+.radar-bar {
+  position: absolute; left: 50%; bottom: 40px; transform: translateX(-50%);
+  display: flex; gap: 10px; align-items: center; padding: 8px 12px;
+  background: rgba(255,255,255,0.92); border: 1px solid var(--rule);
+}
+.radar-bar__play { border: none; background: none; font-size: 14px; width: 24px; }
+.radar-bar__scrub { width: 220px; }
+.radar-bar__time { font-size: 12px; min-width: 42px; }
+.wx--obs .wx__icon { font-size: 11px; font-weight: 600; background: rgba(255,255,255,0.9); padding: 1px 3px; filter: none; }
+.wx--obs .wx__name { font-size: 8px; }
+.wx--wind { transform: translate(-50%, 6px); }
+.wx__arrow { display: inline-block; font-style: normal; margin-right: 2px; }
