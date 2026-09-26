@@ -39,3 +39,20 @@ with tempfile.TemporaryDirectory() as directory:
     assert output.read_text() == 'previous snapshot'
 importer.ROOT, sys.argv = old_root, old_args
 print('Import rejection and snapshot preservation checks passed')
+
+from fetch_last_trains import parse_sgtrains
+capture=json.loads(Path('tools/fixtures/last-trains/sgtrains.json').read_text())
+extra, sources=parse_sgtrains(capture, stations)
+khatib=[r for r in extra if r['stationCode']=='NS14']
+assert next(r for r in khatib if r['destination']=='Jurong East')['rules'][0]['minute']==1466
+assert next(r for r in khatib if r['destination']=='Yishun')['rules'][0]['status']=='not-applicable'
+assert any(r['stationCode']=='CG2' and 'Tanah Merah' in r.get('note','') for r in extra)
+for invalid in [dict(capture,pages=capture['pages'][:-1]),dict(capture,pages=capture['pages']+[capture['pages'][0]])]:
+    try: parse_sgtrains(invalid,stations)
+    except ValueError: pass
+    else: raise AssertionError('Incomplete or duplicate station capture accepted')
+bad=json.loads(json.dumps(capture));bad['pages'][0]['text']=bad['pages'][0]['text'].replace('Daily','Unknown')
+try: parse_sgtrains(bad,stations)
+except ValueError: pass
+else: raise AssertionError('Changed day header accepted')
+print('SMRT alternative-source checks passed')

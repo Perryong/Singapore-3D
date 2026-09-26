@@ -30,7 +30,11 @@ if (poster) {
   wx.textContent = 'Check the weather \u2192';
   const row = document.createElement('div');
   row.className = 'cta-row';
-  row.append(link, wx);
+  const explore = document.createElement('a');
+  explore.className = 'cta';
+  explore.href = './explore.html';
+  explore.textContent = 'Find food & MRT stations \u2192';
+  row.append(link, wx, explore);
   const hint = document.createElement('p');
   hint.className = 'view-hint';
   hint.textContent = 'Open the interactive sheet: rotate the stack, pull the layers apart, click anything for its data.';

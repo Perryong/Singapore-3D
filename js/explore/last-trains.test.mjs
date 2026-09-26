@@ -14,7 +14,8 @@ assert.equal(stationStatus({services:[{minute:1501,status:'published'}],complete
 assert.deepEqual(nowSelection(new Date('2026-09-25T16:20:00Z'),data),{serviceDate:'2026-09-25',minute:1460,preview:false});
 assert.deepEqual(nowSelection(new Date('2026-09-26T04:00:00Z'),data),{serviceDate:'2026-09-26',minute:1260,preview:true});
 const selected=selectServices(data,'mrt-bugis','2026-09-26');
-assert.equal(selected.complete,false); // EW coverage missing
+assert.equal(selected.complete,true); // Both EW and DT are covered
+for (const station of stations) assert.ok(selectServices(data,station.properties.id,'2026-09-26').services.some(s=>s.status==='published'), station.properties.name+' needs departures');
 assert.equal(selected.exceptionVerified,false);
 assert.ok(selected.services.some(s=>s.destination==='Expo'&&s.minute===1441));
 const fallback=selectionFromURL('?serviceDate=2026-02-30&minute=1440.5&lastStation=bad',data,new Date('2026-09-26T04:00:00Z'));

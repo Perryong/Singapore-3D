@@ -8,12 +8,12 @@ export function validateTimetable(data, stations) {
  const stationIds=new Set(stations.map(s=>s.properties.id)), serviceIds=new Set();
  for(const source of Object.values(data.sources)) {
   let url; try { url=new URL(source.url); } catch { fail(); }
-  if(url.protocol!=='https:' || !['www.sbstransit.com.sg','sbstransit.com.sg','journey.smrt.com.sg','www.smrt.com.sg'].includes(url.hostname) || !Number.isFinite(Date.parse(source.retrievedAt))) fail();
+  if(url.protocol!=='https:' || !['www.sbstransit.com.sg','sbstransit.com.sg','journey.smrt.com.sg','www.smrt.com.sg','www.sgtrains.com'].includes(url.hostname) || !Number.isFinite(Date.parse(source.retrievedAt))) fail();
  }
  for(const s of data.services) {
   if(typeof s.id!=='string' || serviceIds.has(s.id) || !stationIds.has(s.stationId) || !s.destination || !data.sources[s.sourceId] || !Array.isArray(s.rules) || !s.rules.length) fail();
   const station=stations.find(f=>f.properties.id===s.stationId);
-  if(!station.properties.codes.split('-').includes(s.stationCode) || !s.stationCode.startsWith(s.line)) fail();
+  if(!station.properties.codes.split('-').includes(s.stationCode) || !s.stationCode.startsWith(s.line) && !({CG:'EW',CE:'CC'}[s.stationCode.slice(0,2)]===s.line)) fail();
   serviceIds.add(s.id);
   for(const [i,r] of s.rules.entries()) {
    if(!statusOK(r) || !['regular','holiday'].includes(r.dayClass) || !Array.isArray(r.weekdays) || !r.weekdays.length || r.weekdays.some(d=>!Number.isInteger(d)||d<1||d>7) || (r.validFrom && !dateOK(r.validFrom)) || (r.validTo && !dateOK(r.validTo)) || (r.validFrom&&r.validTo&&r.validFrom>r.validTo)) fail();
