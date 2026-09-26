@@ -1,0 +1,5570 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Asia/Singapore",
+  "retrievedAt": "2026-09-26T08:10:51.304469+00:00",
+  "sources": {
+    "sbs-DT": {
+      "url": "https://www.sbstransit.com.sg/first-train-last-train",
+      "retrievedAt": "2026-09-26T08:10:51.287381+00:00",
+      "updated": "2025-02-28"
+    },
+    "sbs-NE": {
+      "url": "https://www.sbstransit.com.sg/first-train-last-train",
+      "retrievedAt": "2026-09-26T08:10:51.287535+00:00",
+      "updated": "2024-12-10"
+    }
+  },
+  "services": [
+    {
+      "id": "DT1-expo",
+      "stationCode": "DT1",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1415,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1415,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-bukit-panjang"
+    },
+    {
+      "id": "DT2-expo",
+      "stationCode": "DT2",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1417,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1417,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-cashew"
+    },
+    {
+      "id": "DT3-expo",
+      "stationCode": "DT3",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1418,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1418,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-hillview"
+    },
+    {
+      "id": "DT4-expo",
+      "stationCode": "DT4",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1420,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1420,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-hume"
+    },
+    {
+      "id": "DT5-expo",
+      "stationCode": "DT5",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1422,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1422,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-beauty-world"
+    },
+    {
+      "id": "DT6-expo",
+      "stationCode": "DT6",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1424,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1424,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-king-albert-park"
+    },
+    {
+      "id": "DT7-expo",
+      "stationCode": "DT7",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1426,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1426,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-sixth-avenue"
+    },
+    {
+      "id": "DT8-expo",
+      "stationCode": "DT8",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1428,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1428,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-tan-kah-kee"
+    },
+    {
+      "id": "DT9-expo",
+      "stationCode": "DT9",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1430,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1430,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-botanic-gardens"
+    },
+    {
+      "id": "DT10-expo",
+      "stationCode": "DT10",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1433,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1433,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-stevens"
+    },
+    {
+      "id": "DT11-expo",
+      "stationCode": "DT11",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1435,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1435,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-newton"
+    },
+    {
+      "id": "DT12-expo",
+      "stationCode": "DT12",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1438,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1438,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-little-india"
+    },
+    {
+      "id": "DT13-expo",
+      "stationCode": "DT13",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1439,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1439,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-rochor"
+    },
+    {
+      "id": "DT14-expo",
+      "stationCode": "DT14",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1441,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1441,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-bugis"
+    },
+    {
+      "id": "DT15-expo",
+      "stationCode": "DT15",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1443,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1443,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-promenade"
+    },
+    {
+      "id": "DT16-expo",
+      "stationCode": "DT16",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1445,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1445,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-bayfront"
+    },
+    {
+      "id": "DT17-expo",
+      "stationCode": "DT17",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1447,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1447,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-downtown"
+    },
+    {
+      "id": "DT18-expo",
+      "stationCode": "DT18",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1448,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1448,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-telok-ayer"
+    },
+    {
+      "id": "DT19-expo",
+      "stationCode": "DT19",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1450,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1450,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-chinatown"
+    },
+    {
+      "id": "DT20-expo",
+      "stationCode": "DT20",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1452,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1452,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-fort-canning"
+    },
+    {
+      "id": "DT21-expo",
+      "stationCode": "DT21",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1453,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1453,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-bencoolen"
+    },
+    {
+      "id": "DT22-expo",
+      "stationCode": "DT22",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1455,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1455,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-jalan-besar"
+    },
+    {
+      "id": "DT23-expo",
+      "stationCode": "DT23",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1457,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1457,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-bendemeer"
+    },
+    {
+      "id": "DT24-expo",
+      "stationCode": "DT24",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1459,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1459,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-geylang-bahru"
+    },
+    {
+      "id": "DT25-expo",
+      "stationCode": "DT25",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1462,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1462,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-mattar"
+    },
+    {
+      "id": "DT26-expo",
+      "stationCode": "DT26",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1464,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1464,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-macpherson"
+    },
+    {
+      "id": "DT27-expo",
+      "stationCode": "DT27",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1465,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1465,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-ubi"
+    },
+    {
+      "id": "DT28-expo",
+      "stationCode": "DT28",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1467,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1467,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-kaki-bukit"
+    },
+    {
+      "id": "DT29-expo",
+      "stationCode": "DT29",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1469,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1469,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-bedok-north"
+    },
+    {
+      "id": "DT30-expo",
+      "stationCode": "DT30",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1471,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1471,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-bedok-reservoir"
+    },
+    {
+      "id": "DT31-expo",
+      "stationCode": "DT31",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1474,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1474,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-tampines-west"
+    },
+    {
+      "id": "DT32-expo",
+      "stationCode": "DT32",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1476,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1476,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-tampines"
+    },
+    {
+      "id": "DT33-expo",
+      "stationCode": "DT33",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1478,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1478,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-tampines-east"
+    },
+    {
+      "id": "DT34-expo",
+      "stationCode": "DT34",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1481,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1481,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-upper-changi"
+    },
+    {
+      "id": "DT35-expo",
+      "stationCode": "DT35",
+      "line": "DT",
+      "destination": "Expo",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": null,
+          "status": "not-applicable"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": null,
+          "status": "not-applicable"
+        }
+      ],
+      "stationId": "mrt-expo"
+    },
+    {
+      "id": "DT35-bukit-panjang",
+      "stationCode": "DT35",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1420,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1420,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-expo"
+    },
+    {
+      "id": "DT34-bukit-panjang",
+      "stationCode": "DT34",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1421,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1421,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-upper-changi"
+    },
+    {
+      "id": "DT33-bukit-panjang",
+      "stationCode": "DT33",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1425,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1425,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-tampines-east"
+    },
+    {
+      "id": "DT32-bukit-panjang",
+      "stationCode": "DT32",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1427,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1427,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-tampines"
+    },
+    {
+      "id": "DT31-bukit-panjang",
+      "stationCode": "DT31",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1429,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1429,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-tampines-west"
+    },
+    {
+      "id": "DT30-bukit-panjang",
+      "stationCode": "DT30",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1431,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1431,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-bedok-reservoir"
+    },
+    {
+      "id": "DT29-bukit-panjang",
+      "stationCode": "DT29",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1434,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1434,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-bedok-north"
+    },
+    {
+      "id": "DT28-bukit-panjang",
+      "stationCode": "DT28",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1436,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1436,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-kaki-bukit"
+    },
+    {
+      "id": "DT27-bukit-panjang",
+      "stationCode": "DT27",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1438,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1438,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-ubi"
+    },
+    {
+      "id": "DT26-bukit-panjang",
+      "stationCode": "DT26",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1440,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1440,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-macpherson"
+    },
+    {
+      "id": "DT25-bukit-panjang",
+      "stationCode": "DT25",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1442,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1442,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-mattar"
+    },
+    {
+      "id": "DT24-bukit-panjang",
+      "stationCode": "DT24",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1444,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1444,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-geylang-bahru"
+    },
+    {
+      "id": "DT23-bukit-panjang",
+      "stationCode": "DT23",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1446,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1446,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-bendemeer"
+    },
+    {
+      "id": "DT22-bukit-panjang",
+      "stationCode": "DT22",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1448,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1448,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-jalan-besar"
+    },
+    {
+      "id": "DT21-bukit-panjang",
+      "stationCode": "DT21",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1450,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1450,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-bencoolen"
+    },
+    {
+      "id": "DT20-bukit-panjang",
+      "stationCode": "DT20",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1451,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1451,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-fort-canning"
+    },
+    {
+      "id": "DT19-bukit-panjang",
+      "stationCode": "DT19",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1454,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1454,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-chinatown"
+    },
+    {
+      "id": "DT18-bukit-panjang",
+      "stationCode": "DT18",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1455,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1455,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-telok-ayer"
+    },
+    {
+      "id": "DT17-bukit-panjang",
+      "stationCode": "DT17",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1456,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1456,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-downtown"
+    },
+    {
+      "id": "DT16-bukit-panjang",
+      "stationCode": "DT16",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1458,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1458,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-bayfront"
+    },
+    {
+      "id": "DT15-bukit-panjang",
+      "stationCode": "DT15",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1460,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1460,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-promenade"
+    },
+    {
+      "id": "DT14-bukit-panjang",
+      "stationCode": "DT14",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1462,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1462,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-bugis"
+    },
+    {
+      "id": "DT13-bukit-panjang",
+      "stationCode": "DT13",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1464,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1464,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-rochor"
+    },
+    {
+      "id": "DT12-bukit-panjang",
+      "stationCode": "DT12",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1466,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1466,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-little-india"
+    },
+    {
+      "id": "DT11-bukit-panjang",
+      "stationCode": "DT11",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1468,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1468,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-newton"
+    },
+    {
+      "id": "DT10-bukit-panjang",
+      "stationCode": "DT10",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1470,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1470,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-stevens"
+    },
+    {
+      "id": "DT9-bukit-panjang",
+      "stationCode": "DT9",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1472,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1472,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-botanic-gardens"
+    },
+    {
+      "id": "DT8-bukit-panjang",
+      "stationCode": "DT8",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1474,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1474,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-tan-kah-kee"
+    },
+    {
+      "id": "DT7-bukit-panjang",
+      "stationCode": "DT7",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1476,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1476,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-sixth-avenue"
+    },
+    {
+      "id": "DT6-bukit-panjang",
+      "stationCode": "DT6",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1478,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1478,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-king-albert-park"
+    },
+    {
+      "id": "DT5-bukit-panjang",
+      "stationCode": "DT5",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1480,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1480,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-beauty-world"
+    },
+    {
+      "id": "DT4-bukit-panjang",
+      "stationCode": "DT4",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1483,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1483,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-hume"
+    },
+    {
+      "id": "DT3-bukit-panjang",
+      "stationCode": "DT3",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1485,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1485,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-hillview"
+    },
+    {
+      "id": "DT2-bukit-panjang",
+      "stationCode": "DT2",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1486,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1486,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-cashew"
+    },
+    {
+      "id": "DT1-bukit-panjang",
+      "stationCode": "DT1",
+      "line": "DT",
+      "destination": "Bukit Panjang",
+      "sourceId": "sbs-DT",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": null,
+          "status": "not-applicable"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": null,
+          "status": "not-applicable"
+        }
+      ],
+      "stationId": "mrt-bukit-panjang"
+    },
+    {
+      "id": "NE18-harbourfront",
+      "stationCode": "NE18",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1405,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1405,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1405,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-punggol-coast"
+    },
+    {
+      "id": "NE17-harbourfront",
+      "stationCode": "NE17",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1408,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1408,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1408,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-punggol"
+    },
+    {
+      "id": "NE16-harbourfront",
+      "stationCode": "NE16",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1410,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1410,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1410,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-sengkang"
+    },
+    {
+      "id": "NE15-harbourfront",
+      "stationCode": "NE15",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1412,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1412,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1412,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-buangkok"
+    },
+    {
+      "id": "NE14-harbourfront",
+      "stationCode": "NE14",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1415,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1415,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1415,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-hougang"
+    },
+    {
+      "id": "NE13-harbourfront",
+      "stationCode": "NE13",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1417,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1417,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1417,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-kovan"
+    },
+    {
+      "id": "NE12-harbourfront",
+      "stationCode": "NE12",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1420,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1420,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1420,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-serangoon"
+    },
+    {
+      "id": "NE11-harbourfront",
+      "stationCode": "NE11",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1422,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1422,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1422,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-woodleigh"
+    },
+    {
+      "id": "NE10-harbourfront",
+      "stationCode": "NE10",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1424,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1424,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1424,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-potong-pasir"
+    },
+    {
+      "id": "NE9-harbourfront",
+      "stationCode": "NE9",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1426,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1426,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1426,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-boon-keng"
+    },
+    {
+      "id": "NE8-harbourfront",
+      "stationCode": "NE8",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1428,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1428,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1428,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-farrer-park"
+    },
+    {
+      "id": "NE7-harbourfront",
+      "stationCode": "NE7",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1430,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1430,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1430,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-little-india"
+    },
+    {
+      "id": "NE6-harbourfront",
+      "stationCode": "NE6",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1432,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1432,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1432,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-dhoby-ghaut"
+    },
+    {
+      "id": "NE5-harbourfront",
+      "stationCode": "NE5",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1435,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1435,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1435,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-clarke-quay"
+    },
+    {
+      "id": "NE4-harbourfront",
+      "stationCode": "NE4",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1436,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1436,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1436,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-chinatown"
+    },
+    {
+      "id": "NE3-harbourfront",
+      "stationCode": "NE3",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1438,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1438,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1438,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-outram-park"
+    },
+    {
+      "id": "NE1-harbourfront",
+      "stationCode": "NE1",
+      "line": "NE",
+      "destination": "HarbourFront",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": null,
+          "status": "not-applicable"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": null,
+          "status": "not-applicable"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": null,
+          "status": "not-applicable"
+        }
+      ],
+      "stationId": "mrt-harbourfront"
+    },
+    {
+      "id": "NE1-punggol-coast",
+      "stationCode": "NE1",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1435,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1435,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1435,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-harbourfront"
+    },
+    {
+      "id": "NE3-punggol-coast",
+      "stationCode": "NE3",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1439,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1439,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1439,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-outram-park"
+    },
+    {
+      "id": "NE4-punggol-coast",
+      "stationCode": "NE4",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1441,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1441,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1441,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-chinatown"
+    },
+    {
+      "id": "NE5-punggol-coast",
+      "stationCode": "NE5",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1442,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1442,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1442,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-clarke-quay"
+    },
+    {
+      "id": "NE6-punggol-coast",
+      "stationCode": "NE6",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1445,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1445,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1445,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-dhoby-ghaut"
+    },
+    {
+      "id": "NE7-punggol-coast",
+      "stationCode": "NE7",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1447,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1447,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1447,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-little-india"
+    },
+    {
+      "id": "NE8-punggol-coast",
+      "stationCode": "NE8",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1449,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1449,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1449,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-farrer-park"
+    },
+    {
+      "id": "NE9-punggol-coast",
+      "stationCode": "NE9",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1451,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1451,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1451,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-boon-keng"
+    },
+    {
+      "id": "NE10-punggol-coast",
+      "stationCode": "NE10",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1453,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1453,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1453,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-potong-pasir"
+    },
+    {
+      "id": "NE11-punggol-coast",
+      "stationCode": "NE11",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1455,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1455,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1455,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-woodleigh"
+    },
+    {
+      "id": "NE12-punggol-coast",
+      "stationCode": "NE12",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1457,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1457,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1457,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-serangoon"
+    },
+    {
+      "id": "NE13-punggol-coast",
+      "stationCode": "NE13",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1460,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1460,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1460,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-kovan"
+    },
+    {
+      "id": "NE14-punggol-coast",
+      "stationCode": "NE14",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1463,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1463,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1463,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-hougang"
+    },
+    {
+      "id": "NE15-punggol-coast",
+      "stationCode": "NE15",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1465,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1465,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1465,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-buangkok"
+    },
+    {
+      "id": "NE16-punggol-coast",
+      "stationCode": "NE16",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1467,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1467,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1467,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-sengkang"
+    },
+    {
+      "id": "NE17-punggol-coast",
+      "stationCode": "NE17",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1470,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1470,
+          "status": "published"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": 1470,
+          "status": "published"
+        }
+      ],
+      "stationId": "mrt-punggol"
+    },
+    {
+      "id": "NE18-punggol-coast",
+      "stationCode": "NE18",
+      "line": "NE",
+      "destination": "Punggol Coast",
+      "sourceId": "sbs-NE",
+      "rules": [
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": null,
+          "status": "not-applicable"
+        },
+        {
+          "weekdays": [
+            6,
+            7
+          ],
+          "dayClass": "regular",
+          "validFrom": null,
+          "validTo": null,
+          "minute": null,
+          "status": "not-applicable"
+        },
+        {
+          "weekdays": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dayClass": "holiday",
+          "validFrom": null,
+          "validTo": null,
+          "minute": null,
+          "status": "not-applicable"
+        }
+      ],
+      "stationId": "mrt-punggol-coast"
+    }
+  ],
+  "overrides": [],
+  "coverage": {
+    "mrt-admiralty": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-aljunied": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-ang-mo-kio": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-bartley": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-bayfront": {
+      "expectedServiceIds": [
+        "DT16-expo",
+        "DT16-bukit-panjang"
+      ],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-bayshore": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-beauty-world": {
+      "expectedServiceIds": [
+        "DT5-expo",
+        "DT5-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-bedok": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-bedok-north": {
+      "expectedServiceIds": [
+        "DT29-expo",
+        "DT29-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-bedok-reservoir": {
+      "expectedServiceIds": [
+        "DT30-expo",
+        "DT30-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-bencoolen": {
+      "expectedServiceIds": [
+        "DT21-expo",
+        "DT21-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-bendemeer": {
+      "expectedServiceIds": [
+        "DT23-expo",
+        "DT23-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-bishan": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-boon-keng": {
+      "expectedServiceIds": [
+        "NE9-harbourfront",
+        "NE9-punggol-coast"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-boon-lay": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-botanic-gardens": {
+      "expectedServiceIds": [
+        "DT9-expo",
+        "DT9-bukit-panjang"
+      ],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-braddell": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-bras-basah": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-bright-hill": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-buangkok": {
+      "expectedServiceIds": [
+        "NE15-harbourfront",
+        "NE15-punggol-coast"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-bugis": {
+      "expectedServiceIds": [
+        "DT14-expo",
+        "DT14-bukit-panjang"
+      ],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-bukit-batok": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-bukit-gombak": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-bukit-panjang": {
+      "expectedServiceIds": [
+        "DT1-expo",
+        "DT1-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-buona-vista": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-caldecott": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-canberra": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-cashew": {
+      "expectedServiceIds": [
+        "DT2-expo",
+        "DT2-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-changi-airport": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-chinatown": {
+      "expectedServiceIds": [
+        "DT19-expo",
+        "DT19-bukit-panjang",
+        "NE4-harbourfront",
+        "NE4-punggol-coast"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-chinese-garden": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-choa-chu-kang": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-city-hall": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-clarke-quay": {
+      "expectedServiceIds": [
+        "NE5-harbourfront",
+        "NE5-punggol-coast"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-clementi": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-commonwealth": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-dakota": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-dhoby-ghaut": {
+      "expectedServiceIds": [
+        "NE6-harbourfront",
+        "NE6-punggol-coast"
+      ],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-dover": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-downtown": {
+      "expectedServiceIds": [
+        "DT17-expo",
+        "DT17-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-esplanade": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-eunos": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-expo": {
+      "expectedServiceIds": [
+        "DT35-expo",
+        "DT35-bukit-panjang"
+      ],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-farrer-park": {
+      "expectedServiceIds": [
+        "NE8-harbourfront",
+        "NE8-punggol-coast"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-farrer-road": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-fort-canning": {
+      "expectedServiceIds": [
+        "DT20-expo",
+        "DT20-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-gardens-by-the-bay": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-geylang-bahru": {
+      "expectedServiceIds": [
+        "DT24-expo",
+        "DT24-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-great-world": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-gul-circle": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-harbourfront": {
+      "expectedServiceIds": [
+        "NE1-harbourfront",
+        "NE1-punggol-coast"
+      ],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-havelock": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-haw-par-villa": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-hillview": {
+      "expectedServiceIds": [
+        "DT3-expo",
+        "DT3-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-holland-village": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-hougang": {
+      "expectedServiceIds": [
+        "NE14-harbourfront",
+        "NE14-punggol-coast"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-hume": {
+      "expectedServiceIds": [
+        "DT4-expo",
+        "DT4-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-jalan-besar": {
+      "expectedServiceIds": [
+        "DT22-expo",
+        "DT22-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-joo-koon": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-jurong-east": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-kaki-bukit": {
+      "expectedServiceIds": [
+        "DT28-expo",
+        "DT28-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-kallang": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-katong-park": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-kembangan": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-kent-ridge": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-khatib": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-king-albert-park": {
+      "expectedServiceIds": [
+        "DT6-expo",
+        "DT6-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-kovan": {
+      "expectedServiceIds": [
+        "NE13-harbourfront",
+        "NE13-punggol-coast"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-kranji": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-labrador-park": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-lakeside": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-lavender": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-lentor": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-little-india": {
+      "expectedServiceIds": [
+        "DT12-expo",
+        "DT12-bukit-panjang",
+        "NE7-harbourfront",
+        "NE7-punggol-coast"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-lorong-chuan": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-macpherson": {
+      "expectedServiceIds": [
+        "DT26-expo",
+        "DT26-bukit-panjang"
+      ],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-marina-bay": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-marina-south-pier": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-marine-parade": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-marine-terrace": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-marsiling": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-marymount": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-mattar": {
+      "expectedServiceIds": [
+        "DT25-expo",
+        "DT25-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-maxwell": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-mayflower": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-mountbatten": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-napier": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-newton": {
+      "expectedServiceIds": [
+        "DT11-expo",
+        "DT11-bukit-panjang"
+      ],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-nicoll-highway": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-novena": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-one-north": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-orchard": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-orchard-boulevard": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-outram-park": {
+      "expectedServiceIds": [
+        "NE3-harbourfront",
+        "NE3-punggol-coast"
+      ],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-pasir-panjang": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-pasir-ris": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-paya-lebar": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-pioneer": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-potong-pasir": {
+      "expectedServiceIds": [
+        "NE10-harbourfront",
+        "NE10-punggol-coast"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-promenade": {
+      "expectedServiceIds": [
+        "DT15-expo",
+        "DT15-bukit-panjang"
+      ],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-punggol": {
+      "expectedServiceIds": [
+        "NE17-harbourfront",
+        "NE17-punggol-coast"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-punggol-coast": {
+      "expectedServiceIds": [
+        "NE18-harbourfront",
+        "NE18-punggol-coast"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-queenstown": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-raffles-place": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-redhill": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-rochor": {
+      "expectedServiceIds": [
+        "DT13-expo",
+        "DT13-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-sembawang": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-sengkang": {
+      "expectedServiceIds": [
+        "NE16-harbourfront",
+        "NE16-punggol-coast"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-serangoon": {
+      "expectedServiceIds": [
+        "NE12-harbourfront",
+        "NE12-punggol-coast"
+      ],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-shenton-way": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-siglap": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-simei": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-sixth-avenue": {
+      "expectedServiceIds": [
+        "DT7-expo",
+        "DT7-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-somerset": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-springleaf": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-stadium": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-stevens": {
+      "expectedServiceIds": [
+        "DT10-expo",
+        "DT10-bukit-panjang"
+      ],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-tai-seng": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-tampines": {
+      "expectedServiceIds": [
+        "DT32-expo",
+        "DT32-bukit-panjang"
+      ],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-tampines-east": {
+      "expectedServiceIds": [
+        "DT33-expo",
+        "DT33-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-tampines-west": {
+      "expectedServiceIds": [
+        "DT31-expo",
+        "DT31-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-tan-kah-kee": {
+      "expectedServiceIds": [
+        "DT8-expo",
+        "DT8-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-tanah-merah": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-tanjong-katong": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-tanjong-pagar": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-tanjong-rhu": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-telok-ayer": {
+      "expectedServiceIds": [
+        "DT18-expo",
+        "DT18-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-telok-blangah": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-tiong-bahru": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-toa-payoh": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-tuas-crescent": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-tuas-link": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-tuas-west-road": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-ubi": {
+      "expectedServiceIds": [
+        "DT27-expo",
+        "DT27-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-upper-changi": {
+      "expectedServiceIds": [
+        "DT34-expo",
+        "DT34-bukit-panjang"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-upper-thomson": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-woodlands": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-woodlands-north": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-woodlands-south": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-woodleigh": {
+      "expectedServiceIds": [
+        "NE11-harbourfront",
+        "NE11-punggol-coast"
+      ],
+      "enumerationComplete": true,
+      "reason": ""
+    },
+    "mrt-yew-tee": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-yio-chu-kang": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    },
+    "mrt-yishun": {
+      "expectedServiceIds": [],
+      "enumerationComplete": false,
+      "reason": "SMRT timetable unavailable in this snapshot; published services shown where available."
+    }
+  },
+  "calendar": {
+    "years": [],
+    "holidays": [],
+    "source": null
+  }
+}
