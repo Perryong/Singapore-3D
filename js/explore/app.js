@@ -267,6 +267,18 @@ async function loadMap() {
   map.on('error', () => { if (mapReady) mapNotice('Some map tiles could not load. Place search is still available.'); });
   map.on('load', () => {
    clearTimeout(timeout); $('map-notice').hidden = true;
+   // Reuse the basemap's building footprints and tile-provided heights.
+   const baseLayers = map.getStyle().layers;
+   const lastSurface = baseLayers.findLastIndex(layer => layer.type !== 'symbol');
+   const firstLabel = baseLayers[lastSurface + 1]?.id;
+   map.addLayer({ id: 'buildings-3d', type: 'fill-extrusion', source: 'openmaptiles', 'source-layer': 'building', minzoom: 14,
+    paint: {
+     'fill-extrusion-color': '#71818b',
+     'fill-extrusion-height': ['interpolate', ['linear'], ['zoom'], 14, 0, 15, ['max', 0, ['to-number', ['get', 'render_height'], 0]]],
+     'fill-extrusion-base': ['interpolate', ['linear'], ['zoom'], 14, 0, 15, ['max', 0, ['to-number', ['get', 'render_min_height'], 0]]],
+     'fill-extrusion-opacity': 0.8
+    }
+   }, firstLabel);
    map.addSource('rail', { type: 'geojson', data: collection(data.lines) });
    map.addLayer({ id: 'rail-casing', type: 'line', source: 'rail', paint: { 'line-color': '#101b23', 'line-width': 7, 'line-opacity': .9 } });
    map.addLayer({ id: 'rail-lines', type: 'line', source: 'rail', paint: { 'line-color': ['get', 'color'], 'line-width': ['interpolate', ['linear'], ['zoom'], 10, 2, 15, 4], 'line-opacity': .85 } });
