@@ -37,7 +37,7 @@ for (const name of ['food', 'stations', 'exits', 'lines']) {
 const snapshot = name => JSON.parse(readFileSync(new URL(`../../data/explore/${name}.geojson`, import.meta.url))).features;
 const vegetarianPlaces = filterPlaces(snapshot('food'), '', 'vegetarian');
 assert.ok(vegetarianPlaces.length >= 70);
-assert.ok(vegetarianPlaces.every(f => f.properties.dietSource?.startsWith('https://www.openstreetmap.org/') && f.properties.dietEvidence));
+assert.ok(vegetarianPlaces.every(f => ['www.openstreetmap.org','www.greendot.sg','orders.greendot.sg','www.veganburg.com','www.nomvnom.com','www.gokulraasvegetarian.com.sg','railmall.com.sg','fortunecentre.sg'].includes(new URL(f.properties.dietSource).hostname) && f.properties.dietEvidence));
 const officialStations = snapshot('stations');
 assert.ok(officialStations.every(f => f.properties.source === 'LTA DataMall'));
 assert.equal(filterPlaces(officialStations, 'NS9')[0].properties.codes, 'NS9-TE2');

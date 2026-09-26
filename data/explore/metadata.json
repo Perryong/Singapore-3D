@@ -2,7 +2,7 @@
   "fetched": "2026-09-24T17:50:30.420518+00:00",
   "osmTimestamp": "2026-05-31T22:37:44Z",
   "counts": {
-    "food": 8386,
+    "food": 8396,
     "stations": 143,
     "exits": 528,
     "lines": 6
@@ -12,7 +12,8 @@
     "food": "https://www.openstreetmap.org/copyright",
     "stations": "https://datamall.lta.gov.sg/content/datamall/en/static-data.html",
     "exits": "https://datamall.lta.gov.sg/content/datamall/en/static-data.html",
-    "rail": "https://www.openstreetmap.org/copyright"
+    "rail": "https://www.openstreetmap.org/copyright",
+    "vegetarian": "https://www.greendot.sg/contact-us/locate-us/"
   },
   "coverage": "Named food places mapped by NEA and OpenStreetMap; not an exhaustive stall directory. MRT markers are interior points of LTA footprints matched to its code list; only matched stations and exits are included. OSM routes may be newer than LTA station coverage. Not live service information.",
   "railFetched": "2026-09-26T04:48:50.455591+00:00",
@@ -47,5 +48,6 @@
     "ltaStationEdition": "March 2026",
     "ltaCodeEdition": "January 2025",
     "ltaExitEdition": "July 2026"
-  }
+  },
+  "vegetarianReviewed": "2026-09-26"
 }

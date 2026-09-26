@@ -1,0 +1,417 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8930873,
+          1.3187036
+        ]
+      },
+      "properties": {
+        "id": "verified-greendot-1736",
+        "name": "Greendot Patisserie Paya Lebar",
+        "category": "other",
+        "address": "60 Paya Lebar Rd, #02-21 Paya Lebar Square, Singapore 409051",
+        "cuisine": "vegetarian",
+        "hours": "",
+        "source": "Greendot official outlet directory",
+        "diet": "vegetarian",
+        "dietSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "dietEvidence": "Official vegetarian brand outlet listing",
+        "verifiedAt": "2026-09-26",
+        "locationSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "locationPrecision": "Operator map pin; refer to unit number"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8922199,
+          1.3195647
+        ]
+      },
+      "properties": {
+        "id": "verified-greendot-1735",
+        "name": "Greendot Paya Lebar Square",
+        "category": "restaurant",
+        "address": "60 Paya Lebar Rd, #02-15 Paya Lebar Square, Singapore 409051",
+        "cuisine": "vegetarian",
+        "hours": "",
+        "source": "Greendot official outlet directory",
+        "diet": "vegetarian",
+        "dietSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "dietEvidence": "Official vegetarian brand outlet listing",
+        "verifiedAt": "2026-09-26",
+        "locationSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "locationPrecision": "Operator map pin; refer to unit number"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8513229,
+          1.2790352
+        ]
+      },
+      "properties": {
+        "id": "verified-greendot-1734",
+        "name": "Greendot Asia Square",
+        "category": "restaurant",
+        "address": "8 Marina View, Tower 1 #02 – 02, Singapore 018960",
+        "cuisine": "vegetarian",
+        "hours": "",
+        "source": "Greendot official outlet directory",
+        "diet": "vegetarian",
+        "dietSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "dietEvidence": "Official vegetarian brand outlet listing",
+        "verifiedAt": "2026-09-26",
+        "locationSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "locationPrecision": "Operator map pin; refer to unit number"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7427835,
+          1.3343784
+        ]
+      },
+      "properties": {
+        "id": "verified-greendot-1733",
+        "name": "Greendot Westgate",
+        "category": "restaurant",
+        "address": "3 Gateway Drive, #01-06, Singapore 608532",
+        "cuisine": "vegetarian",
+        "hours": "",
+        "source": "Greendot official outlet directory",
+        "diet": "vegetarian",
+        "dietSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "dietEvidence": "Official vegetarian brand outlet listing",
+        "verifiedAt": "2026-09-26",
+        "locationSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "locationPrecision": "Operator map pin; refer to unit number"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9293199,
+          1.3248019
+        ]
+      },
+      "properties": {
+        "id": "verified-greendot-1729",
+        "name": "Greendot Bedok Mall",
+        "category": "restaurant",
+        "address": "311 New Upper Changi Road, #B2 – 31, Singapore 467360",
+        "cuisine": "vegetarian",
+        "hours": "",
+        "source": "Greendot official outlet directory",
+        "diet": "vegetarian",
+        "dietSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "dietEvidence": "Official vegetarian brand outlet listing",
+        "verifiedAt": "2026-09-26",
+        "locationSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "locationPrecision": "Operator map pin; refer to unit number"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8361403,
+          1.4292353
+        ]
+      },
+      "properties": {
+        "id": "verified-greendot-1727",
+        "name": "Greendot Northpoint",
+        "category": "restaurant",
+        "address": "930 Yishun Avenue 2, #B2-09/11, Singapore 769098",
+        "cuisine": "vegetarian",
+        "hours": "",
+        "source": "Greendot official outlet directory",
+        "diet": "vegetarian",
+        "dietSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "dietEvidence": "Official vegetarian brand outlet listing",
+        "verifiedAt": "2026-09-26",
+        "locationSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "locationPrecision": "Operator map pin; refer to unit number"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8487573,
+          1.3509643
+        ]
+      },
+      "properties": {
+        "id": "verified-greendot-1722",
+        "name": "Greendot Junction 8",
+        "category": "restaurant",
+        "address": "9 Bishan Place, #B1-24/24A, Singapore 579837",
+        "cuisine": "vegetarian",
+        "hours": "",
+        "source": "Greendot official outlet directory",
+        "diet": "vegetarian",
+        "dietSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "dietEvidence": "Official vegetarian brand outlet listing",
+        "verifiedAt": "2026-09-26",
+        "locationSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "locationPrecision": "Operator map pin; refer to unit number"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7064331,
+          1.33934
+        ]
+      },
+      "properties": {
+        "id": "verified-greendot-1703",
+        "name": "Greendot Jurong Point",
+        "category": "restaurant",
+        "address": "1 Jurong West Central 2, JP 1 #01-43/44/45, Singapore 648886",
+        "cuisine": "vegetarian",
+        "hours": "",
+        "source": "Greendot official outlet directory",
+        "diet": "vegetarian",
+        "dietSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "dietEvidence": "Official vegetarian brand outlet listing",
+        "verifiedAt": "2026-09-26",
+        "locationSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "locationPrecision": "Operator map pin; refer to unit number"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9901067,
+          1.3599218
+        ]
+      },
+      "properties": {
+        "id": "verified-greendot-1687",
+        "name": "Greendot Plus Jewel Changi Airport",
+        "category": "restaurant",
+        "address": "78 Airport Boulevard, #B1-297, Singapore 819666",
+        "cuisine": "vegetarian",
+        "hours": "",
+        "source": "Greendot official outlet directory",
+        "diet": "vegetarian",
+        "dietSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "dietEvidence": "Official vegetarian brand outlet listing",
+        "verifiedAt": "2026-09-26",
+        "locationSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "locationPrecision": "Operator map pin; refer to unit number"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8510411,
+          1.2838767
+        ]
+      },
+      "properties": {
+        "id": "verified-greendot-1644",
+        "name": "Greendot One Raffles Place",
+        "category": "restaurant",
+        "address": "1 Raffles Place, #03-23/24/25, Singapore 048616",
+        "cuisine": "vegetarian",
+        "hours": "",
+        "source": "Greendot official outlet directory",
+        "diet": "vegetarian",
+        "dietSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "dietEvidence": "Official vegetarian brand outlet listing",
+        "verifiedAt": "2026-09-26",
+        "locationSource": "https://www.greendot.sg/contact-us/locate-us/",
+        "locationPrecision": "Operator map pin; refer to unit number"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.945011,
+          1.35418
+        ]
+      },
+      "properties": {
+        "id": "osm-node-12565999294",
+        "name": "Greendot Tampines 1",
+        "category": "restaurant",
+        "address": "10 Tampines Central 1 #B1-K8, Singapore 529536",
+        "cuisine": "",
+        "hours": "",
+        "source": "OpenStreetMap",
+        "diet": "vegetarian",
+        "dietSource": "https://orders.greendot.sg/",
+        "dietEvidence": "Official vegetarian brand ordering directory",
+        "verifiedAt": "2026-09-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.905392,
+          1.320982
+        ]
+      },
+      "properties": {
+        "id": "osm-node-4701887190",
+        "name": "VeganBurg — Eunos",
+        "category": "restaurant",
+        "address": "44 Jalan Eunos, Singapore 419502",
+        "cuisine": "burger, ice cream",
+        "hours": "Mo-Th 11:30-21:00; Fr-Su 11:30-21:30",
+        "source": "OpenStreetMap location · operator/mall listing review",
+        "diet": "vegan",
+        "dietSource": "https://www.veganburg.com/location",
+        "dietEvidence": "Vegetarian/vegan venue described by operator or mall directory",
+        "verifiedAt": "2026-09-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.846692,
+          1.289248
+        ]
+      },
+      "properties": {
+        "id": "osm-node-4912365921",
+        "name": "nomVnom Bistro",
+        "category": "restaurant",
+        "address": "6 Eu Tong Sen Street #03-105/106/107, Clarke Quay Central, Singapore 059817",
+        "cuisine": "burger, pizza, salad",
+        "hours": "Su-Th 11:30-21:30; Fr-Sa 11:30-22:30",
+        "source": "OpenStreetMap location · operator/mall listing review",
+        "diet": "vegan",
+        "dietSource": "https://www.nomvnom.com/contact-us",
+        "dietEvidence": "Vegetarian/vegan venue described by operator or mall directory",
+        "verifiedAt": "2026-09-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.852587,
+          1.306457
+        ]
+      },
+      "properties": {
+        "id": "osm-node-8972102381",
+        "name": "Gokul-Raas Vegetarian Restaurant",
+        "category": "restaurant",
+        "address": "19 Upper Dickson Road, Singapore 207478",
+        "cuisine": "indian",
+        "hours": "",
+        "source": "OpenStreetMap location · operator/mall listing review",
+        "diet": "vegetarian",
+        "dietSource": "https://www.gokulraasvegetarian.com.sg/faq.php",
+        "dietEvidence": "Vegetarian/vegan venue described by operator or mall directory",
+        "verifiedAt": "2026-09-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.768024,
+          1.357865
+        ]
+      },
+      "properties": {
+        "id": "osm-node-4838433723",
+        "name": "Green on Earth Vegetarian Café",
+        "category": "restaurant",
+        "address": "386/388 Upper Bukit Timah Road, The Rail Mall, Singapore 678043",
+        "cuisine": "",
+        "hours": "",
+        "source": "OpenStreetMap location · operator/mall listing review",
+        "diet": "vegetarian",
+        "dietSource": "https://railmall.com.sg/our-stores/green-on-earth-vegetarian-cafe/",
+        "dietEvidence": "Vegetarian/vegan venue described by operator or mall directory",
+        "addressSource": "https://railmall.com.sg/wp-content/uploads/2026/02/CNY-Operating-Hours-as-of-12-Feb-2026.pdf",
+        "verifiedAt": "2026-09-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.852225,
+          1.300546
+        ]
+      },
+      "properties": {
+        "id": "osm-node-3068446292",
+        "name": "Pine Tree Cafe — #02-13",
+        "category": "restaurant",
+        "address": "190 Middle Road #02-13, Fortune Centre, Singapore 188979",
+        "cuisine": "",
+        "hours": "",
+        "source": "OpenStreetMap location · operator/mall listing review",
+        "diet": "vegetarian",
+        "dietSource": "https://fortunecentre.sg/exploring-fortune-centre-bugis/",
+        "dietEvidence": "Vegetarian/vegan venue described by operator or mall directory",
+        "verifiedAt": "2026-09-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.852036,
+          1.300569
+        ]
+      },
+      "properties": {
+        "id": "osm-node-3068446293",
+        "name": "Pine Tree Cafe — #02-09",
+        "category": "restaurant",
+        "address": "190 Middle Road #02-09, Fortune Centre, Singapore 188979",
+        "cuisine": "chinese",
+        "hours": "",
+        "source": "OpenStreetMap location · operator/mall listing review",
+        "diet": "vegetarian",
+        "dietSource": "https://fortunecentre.sg/exploring-fortune-centre-bugis/",
+        "dietEvidence": "Vegetarian/vegan venue described by operator or mall directory",
+        "verifiedAt": "2026-09-26"
+      }
+    }
+  ]
+}

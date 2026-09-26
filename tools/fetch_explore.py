@@ -30,6 +30,23 @@ def dietary_properties(element):
     return {'diet': diet, 'dietSource': f"https://www.openstreetmap.org/{element['type']}/{element['id']}", 'dietEvidence': 'OpenStreetMap dietary tag (community reported)'}
 
 
+def merge_verified_venues(food, venues):
+    from urllib.parse import urlparse
+    merged = {f['properties']['id']: f for f in food}
+    seen = set()
+    for f in venues:
+        p = f['properties']; c = f['geometry']['coordinates']
+        if (p['id'] in seen or f['geometry']['type'] != 'Point' or len(c) != 2
+            or not all(isinstance(v, (int,float)) and math.isfinite(v) for v in c)
+            or not (103.5 <= c[0] <= 104.2 and 1.15 <= c[1] <= 1.5)
+            or p.get('diet') not in ('vegetarian','vegan') or not p.get('name') or not p.get('address')
+            or urlparse(p.get('dietSource','')).scheme != 'https' or not p.get('verifiedAt')):
+            raise ValueError('Invalid verified vegetarian venue')
+        datetime.date.fromisoformat(p['verifiedAt'])
+        seen.add(p['id']); merged[p['id']] = f
+    return list(merged.values())
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--cached', type=Path)
@@ -75,6 +92,8 @@ def main():
         category = {'restaurant': 'restaurant', 'cafe': 'cafe'}.get(t.get('amenity'), 'other')
         address = ' '.join(filter(None, [t.get('addr:housenumber'), t.get('addr:street'), t.get('addr:unit'), t.get('addr:postcode')]))
         food.append(point(f"osm-{e['type']}-{e['id']}", name, coords, category=category, address=address, cuisine=t.get('cuisine', '').replace(';', ', ').replace('_', ' '), hours=t.get('opening_hours', ''), source='OpenStreetMap', **dietary_properties(e)))
+    if not args.rail_only:
+        food = merge_verified_venues(food, json.loads((output / 'vegetarian-venues.geojson').read_text())['features'])
     output.mkdir(exist_ok=True)
     # Validate every complete snapshot before replacing any existing output.
     datasets = {'food': food, 'stations': stations, 'exits': exits, 'lines': lines}
@@ -96,7 +115,7 @@ def main():
     if not args.rail_only:
         metadata.update(fetched=now, osmTimestamp=osm.get('osm3s', {}).get('timestamp_osm_base'))
     metadata.update(railFetched=now, counts={k: len(v) for k, v in datasets.items()},
-        sources={'hawkers': 'https://data.gov.sg/datasets/d_4a086da0a5553be1d89383cd90d07ecd/view', 'food': 'https://www.openstreetmap.org/copyright', 'stations': LTA_PAGE, 'exits': LTA_PAGE, 'rail': 'https://www.openstreetmap.org/copyright'},
+        sources={'vegetarian': 'https://www.greendot.sg/contact-us/locate-us/', 'hawkers': 'https://data.gov.sg/datasets/d_4a086da0a5553be1d89383cd90d07ecd/view', 'food': 'https://www.openstreetmap.org/copyright', 'stations': LTA_PAGE, 'exits': LTA_PAGE, 'rail': 'https://www.openstreetmap.org/copyright'},
         railInputs={'lta': LTA_FILES, 'osmRelations': ROUTES, 'ltaStationEdition': 'March 2026', 'ltaCodeEdition': 'January 2025', 'ltaExitEdition': 'July 2026'},
         coverage='Named food places mapped by NEA and OpenStreetMap; not an exhaustive stall directory. MRT markers are interior points of LTA footprints matched to its code list; only matched stations and exits are included. OSM routes may be newer than LTA station coverage. Not live service information.')
     (output / 'metadata.json').write_text(json.dumps(metadata, indent=2) + '\n')
