@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121a20">
+  <meta name="description" content="Explore Singapore's hawker centres, restaurants and cafés with a geographic MRT map. Find your next meal and nearby stations.">
+  <title>Eat & Explore · Singapore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="./css/explore.css?v=home-1">
+</head>
+<body>
+  <a class="skip" href="#search">Skip to place search</a>
+  <header class="topbar">
+    <a class="back-home" href="./index.html"><span aria-hidden="true">←</span> Back to home</a>
+    <a class="brand" href="./" aria-label="Singapore home"><span class="brand-mark">sg<span>↗</span></span><span>Eat & Explore<small>SINGAPORE, ONE STOP AT A TIME</small></span></a>
+    <nav class="views" aria-label="Explore mode"><button id="food-mode" class="active" aria-pressed="true">Food places</button><button id="mrt-mode" aria-pressed="false">MRT network</button></nav>
+    <button id="share" class="share">Share map <span aria-hidden="true">↗</span></button>
+  </header>
+  <main>
+    <div id="map" aria-label="Interactive Singapore food and MRT map"></div>
+    <div class="map-tools"><label class="rail-toggle"><input id="last-toggle" type="checkbox" disabled><span class="switch" aria-hidden="true"></span>Last trains</label><label class="rail-toggle"><input id="rail-toggle" type="checkbox" checked><span class="switch" aria-hidden="true"></span>MRT lines</label><button id="reset" title="Reset Singapore map view">Reset view <span aria-hidden="true">↺</span></button></div>
+    <aside id="places-panel" class="panel" aria-label="Explore places">
+      <div id="browse">
+        <div class="intro"><p class="eyebrow">A LITTLE HUNGRY. A LITTLE CURIOUS.</p><h1>Good food.<br>A train ride away.</h1><p class="intro-copy">Find your next favourite corner of Singapore.</p></div>
+        <div class="searchbox"><span aria-hidden="true">⌕</span><label class="sr-only" for="search">Search food, cuisine or MRT station</label><input id="search" type="search" placeholder="Food, cuisine or MRT station…" autocomplete="off"><kbd aria-hidden="true">/</kbd></div>
+        <div id="categories" class="categories" aria-label="Food categories"></div>
+        <div class="results-heading"><h2 id="results-title">Around the island</h2><span id="result-count" aria-live="polite">Loading…</span></div>
+        <p id="results-note" class="results-note">Places nearest the map centre</p>
+        <div id="results" class="results" aria-label="Search results"><p class="empty">Gathering good places…</p></div>
+        <button id="more" class="more" hidden>Show more places</button>
+      </div>
+      <div id="detail" hidden></div>
+      <section id="last-panel" hidden aria-label="Last train departures">
+        <p class="eyebrow">ONE MORE TRAIN HOME</p><h1>Last trains.</h1>
+        <label class="sr-only" for="last-search">Search MRT stations</label><input id="last-search" type="search" placeholder="Station name or code…" autocomplete="off">
+        <p id="last-coverage" class="detail-note"></p>
+        <div class="last-key"><span>● Remaining</span><span>◉ Due now</span><span>○ Passed</span><span>? Partial / unavailable</span></div>
+        <div id="last-results"></div>
+      </section>
+      <footer class="panel-footer"><span class="coverage-dot" aria-hidden="true"></span><span id="coverage">Public map data · coverage varies</span><button id="about" aria-label="About the data">ⓘ</button></footer>
+    </aside>
+    <div id="map-notice" class="map-notice" role="status" hidden></div>
+    <div class="legend" id="legend"><span class="legend-title">THE MRT NETWORK</span><div id="line-key"></div><small>Geographic routes · snapshot, not live service</small></div>
+    <section id="last-timeline" class="last-timeline" hidden aria-label="Evening timetable preview">
+      <div class="last-time-head"><div><span id="last-preview" class="detail-note">Evening preview · Singapore time</span><strong id="last-clock">21:00</strong></div><label>Service date<input id="last-date" type="date"></label></div>
+      <div class="last-track"><span>21:00</span><label class="sr-only" for="last-minute">Preview time</label><input id="last-minute" type="range" min="1260" max="1560" step="1" value="1260"><span id="last-end">02:00 +1 day</span><button id="last-play" type="button">Play</button><button id="last-now" type="button">Now</button></div>
+      <p id="last-summary" class="detail-note">Regular schedules · not live train tracking</p>
+    </section>
+    <button id="panel-toggle" class="panel-toggle" aria-controls="places-panel" aria-expanded="true">Hide places</button>
+    <div id="toast" role="status" class="toast" hidden></div>
+  </main>
+  <dialog id="about-dialog"><button id="close-about" class="dialog-close" aria-label="Close data information">×</button><p class="eyebrow">THE SMALL PRINT</p><h2>A map for exploring.</h2><p>Food places come from NEA and OpenStreetMap. This includes mapped hawker centres, restaurants, cafés and food outlets, but not every individual stall. The Vegetarian filter includes venues explicitly tagged fully vegetarian or vegan in OpenStreetMap. These are community-reported dietary labels, not independently certified; listings and menus may change.</p><p>MRT stations and exits come from LTA DataMall; rail geometry comes directly from OpenStreetMap. Station markers are derived from building footprints. Stations are matched to LTA’s code list, so coverage may lag newer OSM routes. Zoom in to see entrances. This is not live train or service information.</p><p>Nearby distances are straight-line distances, not walking routes. Recorded opening hours may have changed.</p><p id="snapshot-date"></p><div class="source-links"><a href="https://data.gov.sg/datasets/d_4a086da0a5553be1d89383cd90d07ecd/view" target="_blank" rel="noopener noreferrer">NEA / data.gov.sg ↗</a><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors · ODbL ↗</a><a href="https://datamall.lta.gov.sg/content/datamall/en/static-data.html" target="_blank" rel="noopener noreferrer">LTA DataMall · stations and exits ↗</a></div></dialog>
+  <noscript><p class="noscript">Enable JavaScript to use the food directory and interactive map. <a href="./">Return home</a>.</p></noscript>
+  <script type="module" src="./js/explore/app.js?v=last-6"></script>
+</body>
+</html>

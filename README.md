@@ -104,3 +104,96 @@ tools/fetch_satellite.py` writes `data/urban/satellite.jpg` and
 Imagery © Esri — Source: Esri, Maxar, Earthstar Geographics. Map data ©
 OpenStreetMap contributors.
 # Singapore-3D
+
+## Food and MRT explorer
+
+`explore.html` is a full-screen food directory and geographic MRT map. Search
+food names, cuisines, addresses or station codes; filter food categories;
+select places for nearby MRT stations (or stations for nearby food). The
+MRT overlay can be switched off and the current view can be shared by URL.
+On small screens, the results become a collapsible bottom panel.
+
+The page uses pinned MapLibre GL JS 5.12.0 from UNPKG and OpenFreeMap's dark
+basemap. It needs an internet connection for map tiles; the directory uses
+checked-in snapshots and remains usable if the basemap fails. No API key,
+React migration or build step is required. ThreeUI remains installed but is
+not needed for this page's native HTML controls.
+
+Data in `data/explore/` contains 8,386 named food places, 143 MRT stations,
+528 entrance points and six MRT lines. NEA records are combined with mapped
+OpenStreetMap restaurants, cafés and other food outlets. Coverage is not a
+complete list of individual stalls. `metadata.json` records the download
+date and source links; source records may be older. Rail data is a snapshot,
+not a statement of current operational service. Nearby distances are
+straight-line distances, not walking routes. Opening hours are source text,
+not a live open/closed indication.
+
+Refresh snapshots and run the regression/data check:
+
+```bash
+tools/.venv/bin/python -m pip install -r tools/requirements.txt
+tools/.venv/bin/python tools/fetch_explore.py --rail-only
+tools/.venv/bin/python tools/rail_data_test.py
+node js/explore/core.test.mjs
+```
+
+Omit `--rail-only` to also refresh food. The importer uses the existing geospatial
+Python environment plus xlrd for LTA’s XLS code list, and `curl` with verified HTTPS;
+Overpass may time out or rate-limit large queries. Snapshots are validated
+before replacing the existing datasets. Source attribution:
+
+- [NEA hawker centres](https://data.gov.sg/datasets/d_4a086da0a5553be1d89383cd90d07ecd/view), Singapore Open Data Licence.
+- [© OpenStreetMap contributors](https://www.openstreetmap.org/copyright), ODbL; food data fetched through Overpass.
+- [LTA DataMall](https://datamall.lta.gov.sg/content/datamall/en/static-data.html): March 2026 station footprints, January 2025 code list and July 2026 exits. Markers use interior footprint points; only code-matched MRT stations and their entrances are included. Repeated exit labels may represent distinct entrances.
+- Rail geometry comes directly from eight OpenStreetMap route relations (including branches), recorded in metadata. OSM routes may be newer than LTA station coverage. No SG Rail Data dependency remains.
+- Basemap © OpenFreeMap, OpenMapTiles and OpenStreetMap contributors.
+
+The Vegetarian filter beside More food includes 75 existing venues tagged
+`diet:vegetarian=only` or `diet:vegan=only` in the OSM food snapshot. It retains
+restaurant/café categories and links each dietary label to its OSM source.
+Venues offering only some vegetarian options are excluded. This is community
+data, not dietary certification or an exhaustive current directory. Full food
+refreshes preserve these tags automatically. Test the importer with
+`tools/.venv/bin/python tools/food_data_test.py`.
+
+### Last-train preview
+
+Use **Last trains** beside the map controls to browse scheduled departures with
+an evening timeline (21:00–02:00 Singapore time). Select a station, choose the
+service date, or use Play/Now. Times after midnight belong to the preceding
+service date. Turning the mode off restores the previous food/MRT filters,
+selection, camera and panel visibility. Shared previews open paused.
+
+The snapshot covers all 143 mapped MRT stations across six lines, with 707
+directional records (including rows without a last departure). Downtown and
+North East schedules use [SBS Transit's published tables](https://www.sbstransit.com.sg/first-train-last-train),
+with editions dated 28 February 2025 and 10 December 2024. The 106 stations
+served by SMRT use [SGTrains station tables](https://www.sgtrains.com/guide-traintiming),
+a secondary source citing LTA and SMRT, captured on 26 September 2026.
+Each departure links to its source; short services and connection notes are retained.
+SGTrains does not supply a timetable edition date, so it is left unknown.
+Its current Circle Line schedules use the completed loop; the map's older LTA
+station geometry retains CE1/CE2 and excludes the three newer loop stations.
+Holiday extensions, temporary changes and live delays are unverified; the map
+shows a regular-schedule preview, not transfer feasibility or live train tracking.
+
+Refresh and verify without adding dependencies:
+
+```bash
+python3 tools/fetch_last_trains.py
+python3 tools/last_trains_test.py
+node js/explore/last-trains.test.mjs
+```
+
+`--cached path/to/sbs.html` reuses a downloaded operator page. Changed source
+editions/layouts, unknown station codes and duplicate records require review
+before replacing the snapshot. The importer writes the validated snapshot
+atomically. Last-train data loads on demand and failure leaves the explorer usable.
+
+SMRT refresh input is `tools/fixtures/last-trains/sgtrains.json`, a capture of
+public station tables, not a live feed. Update those tables and their retrieval
+date from SGTrains, then run the importer; `--smrt-capture path.json` selects an
+alternative capture. The importer requires every mapped SMRT station and line,
+checks daily last-train headers, and rejects malformed times or duplicate pages.
+SBS refreshes preserve this captured SMRT coverage. CG/CE station codes map to
+East-West/Circle lines without changing the map geometry. LRT is out of scope.

@@ -1,0 +1,642 @@
+{
+  "retrievedAt": "2026-09-26T13:42:07.029Z",
+  "publisher": "SGTrains (secondary source; cites LTA and SMRT)",
+  "pages": [
+    {
+      "stationId": "mrt-admiralty",
+      "name": "Admiralty",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Admiralty",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 05:35  | 05:35  | 05:58  | 00:37\nKranji  | –  | –  | –  | 00:53\nMarina South Pier  | 05:29  | 05:29  | 05:45  | 23:11\nToa Payoh  | –  | –  | –  | 23:53\nAng Mo Kio  | –  | –  | –  | 00:42\n\n* * *"
+    },
+    {
+      "stationId": "mrt-aljunied",
+      "name": "Aljunied",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Aljunied",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 06:10  | 06:38  | 00:20\nChangi Airport via Tanah Merah  | –  | –  | 23:36\nTuas Link  | 05:49  | 06:15  | 23:46\n\n* * *"
+    },
+    {
+      "stationId": "mrt-ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Ang%20Mo%20Kio",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nYishun  | 05:07  | 05:07  | –  | –\nJurong East  | 05:17  | 05:17  | 05:40  | 00:18\nKranji  | –  | –  | –  | 00:33\nMarina South Pier  | 05:34  | 05:34  | 06:05  | 23:31\nToa Payoh  | –  | –  | –  | 00:13\n\n* * *"
+    },
+    {
+      "stationId": "mrt-bartley",
+      "name": "Bartley",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Bartley",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:16  | 05:38  | 23:10\nPasir Panjang  | –  | –  | 23:38\none-north  | –  | –  | 23:55\nCaldecott  | –  | –  | 00:26\nClockwise Loop  | 05:47  | 06:14  | 23:28\nMarina Bay  | –  | –  | 23:42\nMountbatten  | –  | –  | 00:20\n\n* * *"
+    },
+    {
+      "stationId": "mrt-bayfront",
+      "name": "Bayfront",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Bayfront",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 06:00  | 06:26  | 22:50\nPasir Panjang  | –  | –  | 23:18\none-north  | –  | –  | 23:35\nCaldecott  | –  | –  | 00:06\nTai Seng  | –  | –  | 00:12\nClockwise Loop  | 05:54  | 06:20  | –\nBartley  | –  | –  | 23:48\nMarina Bay  | –  | –  | 00:03\n\nDowntown Line (SBS Transit)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nBukit Panjang  | 06:15  | 06:33  | 00:18\nExpo  | 06:02  | 06:22  | 00:05\n\n* * *"
+    },
+    {
+      "stationId": "mrt-bayshore",
+      "name": "Bayshore",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Bayshore",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:56  | 06:16  | 23:42\nCaldecott  | –  | –  | 23:54\nOrchard  | –  | –  | 00:00\nGardens by the Bay  | –  | –  | 00:06\nMarine Terrace  | –  | –  | 00:20\n\n* * *"
+    },
+    {
+      "stationId": "mrt-bedok",
+      "name": "Bedok",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Bedok",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 06:19  | 06:47  | 00:30\nChangi Airport via Tanah Merah  | –  | –  | 23:46\nTuas Link  | 05:40  | 06:06  | 23:36\n\n* * *"
+    },
+    {
+      "stationId": "mrt-bishan",
+      "name": "Bishan",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Bishan",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 06:08  | 06:23  | 06:29  | 00:14\nKranji  | –  | –  | –  | 00:30\nMarina South Pier  | 05:37  | 05:37  | 06:02  | 23:34\nToa Payoh  | –  | –  | –  | 00:16\n\nCircle Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:23  | 05:46  | 23:18\nPasir Panjang  | –  | –  | 23:46\none-north  | –  | –  | 00:03\nCaldecott  | –  | –  | 00:34\nClockwise Loop  | 05:40  | 06:07  | 23:20\nMarina Bay  | –  | –  | 23:35\nMountbatten  | –  | –  | 00:12\nBartley  | –  | –  | 00:35\n\n* * *"
+    },
+    {
+      "stationId": "mrt-boon-lay",
+      "name": "Boon Lay",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Boon%20Lay",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:34  | 06:04  | 23:34\nChangi Airport via Tanah Merah  | –  | –  | 22:49\nTuas Link  | 05:21  | 05:51  | 00:32\n\n* * *"
+    },
+    {
+      "stationId": "mrt-botanic-gardens",
+      "name": "Botanic Gardens",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Botanic%20Gardens",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:34  | 05:56  | –\nCaldecott  | –  | –  | 23:28\nPasir Panjang  | –  | –  | 23:56\none-north  | –  | –  | 00:13\nClockwise Loop  | 05:46  | 06:08  | 23:10\nMarina Bay  | –  | –  | 23:25\nMountbatten  | –  | –  | 00:03\nBartley  | –  | –  | 00:25\n\nDowntown Line (SBS Transit)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nBukit Panjang  | 06:00  | 06:21  | 00:32\nExpo  | 05:46  | 06:06  | 23:50\n\n* * *"
+    },
+    {
+      "stationId": "mrt-braddell",
+      "name": "Braddell",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Braddell",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 06:06  | 06:21  | 06:27  | 00:12\nKranji  | –  | –  | –  | 00:27\nMarina South Pier  | 05:39  | 05:39  | 06:04  | 23:36\nToa Payoh  | –  | –  | –  | 00:18\n\n* * *"
+    },
+    {
+      "stationId": "mrt-bras-basah",
+      "name": "Bras Basah",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Bras%20Basah",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nStadium  | –  | 05:38  | 06:06  | 23:58\nPrince Edward Road  | 05:38  | –  | –  | –\nDhoby Ghaut  | 05:58  | 05:58  | 06:19  | 00:01\n\nDestination Notes\nThe last train to Stadium connects with the last train to Caldecott in the anticlockwise direction.\n\n* * *"
+    },
+    {
+      "stationId": "mrt-bright-hill",
+      "name": "Bright Hill",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Bright%20Hill",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:57  | 06:17  | 00:28\nBayshore  | 05:45  | 06:05  | 23:47\nMarine Terrace  | –  | –  | 23:53\nGardens by the Bay  | –  | –  | 23:59\nOutram Park  | –  | –  | 00:05\nOrchard  | –  | –  | 00:17\nCaldecott  | –  | –  | 00:23\n\n* * *"
+    },
+    {
+      "stationId": "mrt-bugis",
+      "name": "Bugis",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Bugis",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 06:03  | 06:31  | 00:13\nChangi Airport via Tanah Merah  | –  | –  | 23:29\nTuas Link  | 05:56  | 06:22  | 23:53\n\nDowntown Line (SBS Transit)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nBukit Panjang  | 06:03  | 06:32  | 00:22\nExpo  | 05:57  | 06:17  | 00:01\n* * *"
+    },
+    {
+      "stationId": "mrt-bukit-batok",
+      "name": "Bukit Batok",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Bukit%20Batok",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 05:45  | 05:45  | 06:08  | 01:00\nMarina South Pier  | 05:19  | 05:19  | 05:38  | 22:49\nToa Payoh  | –  | –  | –  | 23:31\nAng Mo Kio  | –  | –  | –  | 00:20\n\n* * *"
+    },
+    {
+      "stationId": "mrt-bukit-gombak",
+      "name": "Bukit Gombak",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Bukit%20Gombak",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 05:43  | 05:43  | 06:06  | 00:57\nMarina South Pier  | 05:21  | 05:21  | 05:40  | 22:51\nToa Payoh  | –  | –  | –  | 23:33\nAng Mo Kio  | –  | –  | –  | 00:22\n\n* * *"
+    },
+    {
+      "stationId": "mrt-buona-vista",
+      "name": "Buona Vista",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Buona%20Vista",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:43  | 06:11  | 23:51\nChangi Airport via Tanah Merah  | –  | –  | 23:07\nTuas Link  | 06:16  | 06:42  | 00:15\n\nCircle Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:40  | 06:03  | –\nCaldecott  | –  | –  | 23:34\nPasir Panjang  | –  | –  | 00:02\none-north  | –  | –  | 00:20\nClockwise Loop  | 05:39  | 06:01  | 23:03\nMarina Bay  | –  | –  | 23:18\nMountbatten  | –  | –  | 23:56\nBartley  | –  | –  | 00:18\n\n* * *"
+    },
+    {
+      "stationId": "mrt-caldecott",
+      "name": "Caldecott",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Caldecott",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:29  | 05:51  | 23:23\nPasir Panjang  | –  | –  | 23:51\none-north  | –  | –  | 00:08\nClockwise Loop  | 05:34  | 06:02  | 23:15\nMarina Bay  | –  | –  | 23:29\nMountbatten  | –  | –  | 00:07\nBartley  | –  | –  | 00:30\n\nThomson-East Coast Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:52  | 06:12  | 00:23\nBayshore  | 05:48  | 06:08  | 23:52\nMarine Terrace  | –  | –  | 23:58\nGardens by the Bay  | –  | –  | 00:04\nOutram Park  | –  | –  | 00:10\nOrchard  | –  | –  | 00:22\n\n* * *"
+    },
+    {
+      "stationId": "mrt-canberra",
+      "name": "Canberra",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Canberra",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 05:29  | 05:29  | 05:52  | 00:31\nKranji  | –  | –  | –  | 00:47\nMarina South Pier  | 05:35  | 05:35  | 05:51  | 23:17\nToa Payoh  | –  | –  | –  | 23:59\nAng Mo Kio  | –  | –  | –  | 00:48\n\n* * *"
+    },
+    {
+      "stationId": "mrt-changi-airport",
+      "name": "Changi Airport",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Changi%20Airport",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nTanah Merah  | 05:31  | 05:59  | –\nconnect to Tuas Link  | –  | –  | 23:18\nconnect to Pasir Ris  | –  | –  | 00:06\n\nDestination Notes\nconnect to Tuas Link: Last connecting train at Tanah Merah to the city and Tuas Link\nconnect to Pasir Ris: Last connecting train at Tanah Merah to Pasir Ris & last train to Tanah Merah\n* * *"
+    },
+    {
+      "stationId": "mrt-chinese-garden",
+      "name": "Chinese Garden",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Chinese%20Garden",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:39  | 06:09  | 23:39\nChangi Airport via Tanah Merah  | –  | –  | 22:54\nTuas Link  | 05:16  | 05:46  | 00:27\n\n* * *"
+    },
+    {
+      "stationId": "mrt-choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Choa%20Chu%20Kang",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 05:39  | 05:39  | 06:02  | 00:53\nMarina South Pier  | 05:25  | 05:25  | 05:44  | 22:56\nToa Payoh  | –  | –  | –  | 23:37\nAng Mo Kio  | –  | –  | –  | 00:26\n\nBukit Panjang LRT (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nService A via Senja  | 05:13  | 05:32  | –\nService B via Petir  | –  | –  | 23:30\n\nChanges to Train Service Hours for Bukit Panjang LRT\nFull-day closure on 20 Sep and 27 Sep 2026 for final phase of renewal works. cite203†View more details ›†go.sgtrains.com L244: \n* * *"
+    },
+    {
+      "stationId": "mrt-city-hall",
+      "name": "City Hall",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=City%20Hall",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 06:05  | 06:05  | 06:30  | 23:55\nKranji  | –  | –  | –  | 00:11\nMarina South Pier  | 05:54  | 05:54  | 06:19  | 23:53\n\nEast-West Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 06:01  | 06:29  | 00:10\nChangi Airport via Tanah Merah  | –  | –  | 23:26\nTuas Link  | 05:58  | 06:24  | 23:55\n\n* * *"
+    },
+    {
+      "stationId": "mrt-clementi",
+      "name": "Clementi",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Clementi",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:38  | 06:06  | 23:46\nChangi Airport via Tanah Merah  | –  | –  | 23:02\nTuas Link  | 06:21  | 06:47  | 00:20\n\n* * *"
+    },
+    {
+      "stationId": "mrt-commonwealth",
+      "name": "Commonwealth",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Commonwealth",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:45  | 06:13  | 23:53\nChangi Airport via Tanah Merah  | –  | –  | 23:09\nTuas Link  | 06:14  | 06:40  | 00:12\n\n* * *"
+    },
+    {
+      "stationId": "mrt-dakota",
+      "name": "Dakota",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Dakota",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:31  | 06:04  | 23:00\nPasir Panjang  | –  | –  | 23:29\none-north  | –  | –  | 23:46\nCaldecott  | –  | –  | 00:17\nTai Seng  | –  | –  | 00:23\nClockwise Loop  | 05:43  | 06:09  | –\nBartley  | –  | –  | 23:37\nMarina Bay  | –  | –  | 23:52\nMountbatten  | –  | –  | 00:29\n\n* * *"
+    },
+    {
+      "stationId": "mrt-dhoby-ghaut",
+      "name": "Dhoby Ghaut",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Dhoby%20Ghaut",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 06:07  | 06:07  | 06:32  | 23:57\nKranji  | –  | –  | –  | 00:13\nMarina South Pier  | 05:52  | 05:52  | 06:17  | 23:51\n\nNorth East Line (SBS Transit)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nHarbourFront  | 06:06  | 06:26  | 23:52\nPunggol Coast  | 05:53  | 06:13  | 00:05\n\nCircle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nStadium  | –  | 05:37  | 06:05  | 23:56\nPrince Edward Road  | 05:37  | –  | –  | –\nDestination Notes\nThe last train to Stadium connects with the last train to Caldecott in the anticlockwise direction.\n\n* * *"
+    },
+    {
+      "stationId": "mrt-dover",
+      "name": "Dover",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Dover",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:40  | 06:08  | 23:49\nChangi Airport via Tanah Merah  | –  | –  | 23:04\nTuas Link  | 06:18  | 06:44  | 00:17\n\n* * *"
+    },
+    {
+      "stationId": "mrt-esplanade",
+      "name": "Esplanade",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Esplanade",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nStadium  | –  | 05:40  | 06:08  | 00:00\nPrince Edward Road  | 05:40  | –  | –  | –\nDhoby Ghaut  | 05:57  | 05:57  | 06:17  | 23:59\n\nDestination Notes\nThe last train to Stadium connects with the last train to Caldecott in the anticlockwise direction.\n\n* * *"
+    },
+    {
+      "stationId": "mrt-eunos",
+      "name": "Eunos",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Eunos",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 06:14  | 06:42  | 00:25\nChangi Airport via Tanah Merah  | –  | –  | 23:41\nTuas Link  | 05:45  | 06:11  | 23:41\n\n* * *"
+    },
+    {
+      "stationId": "mrt-expo",
+      "name": "Expo",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Expo",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nTanah Merah  | 05:36  | 06:04  | –\nconnect to Tuas Link  | –  | –  | 23:23\nconnect to Pasir Ris  | –  | –  | 00:11\nChangi Airport  | 05:23  | 05:50  | 23:53\nDestination Notes\nconnect to Tuas Link: Last connecting train at Tanah Merah to the city and Tuas Link\nconnect to Pasir Ris: Last connecting train at Tanah Merah to Pasir Ris & last train to Tanah Merah\n\nDowntown Line (SBS Transit)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nBukit Panjang  | 05:36  | 05:54  | 23:40\n\n* * *"
+    },
+    {
+      "stationId": "mrt-farrer-road",
+      "name": "Farrer Road",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Farrer%20Road",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:36  | 05:58  | –\nCaldecott  | –  | –  | 23:30\nPasir Panjang  | –  | –  | 23:58\none-north  | –  | –  | 00:15\nClockwise Loop  | 05:43  | 06:05  | 23:08\nMarina Bay  | –  | –  | 23:22\nMountbatten  | –  | –  | 00:00\nBartley  | –  | –  | 00:22\n\n* * *"
+    },
+    {
+      "stationId": "mrt-gardens-by-the-bay",
+      "name": "Gardens by the Bay",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Gardens%20by%20the%20Bay",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 06:00  | 06:20  | 23:59\nCaldecott  | –  | –  | 00:11\nOrchard  | –  | –  | 00:17\nBayshore  | 05:57  | 06:17  | 00:17\nMarine Terrace  | –  | –  | 00:22\n\n* * *"
+    },
+    {
+      "stationId": "mrt-great-world",
+      "name": "Great World",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Great%20World",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 06:10  | 06:30  | 00:10\nCaldecott  | –  | –  | 00:22\nOrchard  | –  | –  | 00:28\nBayshore  | 05:57  | 06:17  | 00:05\nMarine Terrace  | –  | –  | 00:10\nGardens by the Bay  | –  | –  | 00:16\nOutram Park  | –  | –  | 00:22\n\n* * *"
+    },
+    {
+      "stationId": "mrt-gul-circle",
+      "name": "Gul Circle",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Gul%20Circle",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:26  | 05:56  | 23:26\nChangi Airport via Tanah Merah  | –  | –  | 22:41\nTuas Link  | 05:30  | 06:00  | 00:41\n\n* * *"
+    },
+    {
+      "stationId": "mrt-harbourfront",
+      "name": "HarbourFront",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=HarbourFront",
+      "text": "North East Line (SBS Transit)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPunggol Coast  | 05:47  | 06:07  | 23:55\n\nCircle Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:47  | 06:12  | –\nCaldecott  | –  | –  | 23:51\nClockwise Loop  | 05:30  | 05:51  | 22:47\nMarina Bay  | –  | –  | 23:02\nMountbatten  | –  | –  | 23:40\nBartley  | –  | –  | 00:02\n\n* * *"
+    },
+    {
+      "stationId": "mrt-havelock",
+      "name": "Havelock",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Havelock",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 06:09  | 06:29  | 00:09\nCaldecott  | –  | –  | 00:21\nOrchard  | –  | –  | 00:27\nBayshore  | 05:59  | 06:19  | 00:07\nMarine Terrace  | –  | –  | 00:12\nGardens by the Bay  | –  | –  | 00:18\nOutram Park  | –  | –  | 00:24\n\n* * *"
+    },
+    {
+      "stationId": "mrt-haw-par-villa",
+      "name": "Haw Par Villa",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Haw%20Par%20Villa",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:38  | 06:02  | –\nCaldecott  | –  | –  | 23:41\nPasir Panjang  | –  | –  | 00:09\nClockwise Loop  | 05:32  | 05:54  | 22:56\nMarina Bay  | –  | –  | 23:10\nMountbatten  | –  | –  | 23:49\nBartley  | –  | –  | 00:11\n\n* * *"
+    },
+    {
+      "stationId": "mrt-holland-village",
+      "name": "Holland Village",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Holland%20Village",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:38  | 06:01  | –\nCaldecott  | –  | –  | 23:32\nPasir Panjang  | –  | –  | 00:00\none-north  | –  | –  | 00:18\nClockwise Loop  | 05:41  | 06:03  | 23:05\nMarina Bay  | –  | –  | 23:19\nMountbatten  | –  | –  | 23:58\nBartley  | –  | –  | 00:20\n\n* * *"
+    },
+    {
+      "stationId": "mrt-joo-koon",
+      "name": "Joo Koon",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Joo%20Koon",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:29  | 05:59  | 23:29\nChangi Airport via Tanah Merah  | –  | –  | 22:44\nTuas Link  | 05:27  | 05:57  | 00:38\n\n* * *"
+    },
+    {
+      "stationId": "mrt-jurong-east",
+      "name": "Jurong East",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Jurong%20East",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nMarina South Pier  | 05:16  | 05:16  | 05:35  | 22:46\nToa Payoh  | –  | –  | –  | 23:28\nAng Mo Kio  | –  | –  | –  | 00:17\n\nEast-West Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:42  | 06:12  | 23:42\nChangi Airport via Tanah Merah  | –  | –  | 22:57\nTuas Link  | 05:14  | 05:44  | 00:25\n\n* * *"
+    },
+    {
+      "stationId": "mrt-kallang",
+      "name": "Kallang",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Kallang",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 06:07  | 06:35  | 00:17\nChangi Airport via Tanah Merah  | –  | –  | 23:33\nTuas Link  | 05:51  | 06:17  | 23:48\n\n* * *"
+    },
+    {
+      "stationId": "mrt-katong-park",
+      "name": "Katong Park",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Katong%20Park",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 06:02  | 06:22  | 23:52\nCaldecott  | –  | –  | 00:04\nOrchard  | –  | –  | 00:10\nGardens by the Bay  | –  | –  | 00:16\nBayshore  | 06:03  | 06:23  | 00:23\nMarine Terrace  | –  | –  | 00:28\n\n* * *"
+    },
+    {
+      "stationId": "mrt-kembangan",
+      "name": "Kembangan",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Kembangan",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 06:16  | 06:44  | 00:27\nChangi Airport via Tanah Merah  | –  | –  | 23:43\nTuas Link  | 05:43  | 06:09  | 23:39\n\n* * *"
+    },
+    {
+      "stationId": "mrt-kent-ridge",
+      "name": "Kent Ridge",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Kent%20Ridge",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:35  | 06:00  | –\nCaldecott  | –  | –  | 23:39\nPasir Panjang  | –  | –  | 00:06\nClockwise Loop  | 05:35  | 05:57  | 22:59\nMarina Bay  | –  | –  | 23:13\nMountbatten  | –  | –  | 23:52\nBartley  | –  | –  | 00:14\n\n* * *"
+    },
+    {
+      "stationId": "mrt-khatib",
+      "name": "Khatib",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Khatib",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nYishun  | 05:14  | 05:14  | –  | –\nJurong East  | 05:24  | 05:24  | 05:47  | 00:26\nKranji  | –  | –  | –  | 00:41\nMarina South Pier  | 05:26  | 05:26  | 05:57  | 23:22\nToa Payoh  | –  | –  | –  | 00:04\nAng Mo Kio  | –  | –  | –  | 00:53\n\n* * *"
+    },
+    {
+      "stationId": "mrt-kranji",
+      "name": "Kranji",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Kranji",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 05:43  | 05:43  | 06:06  | 00:45\nMarina South Pier  | 05:22  | 05:22  | 05:38  | 23:03\nToa Payoh  | –  | –  | –  | 23:45\nAng Mo Kio  | –  | –  | –  | 00:34\n\n* * *"
+    },
+    {
+      "stationId": "mrt-labrador-park",
+      "name": "Labrador Park",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Labrador%20Park",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:42  | 06:07  | –\nCaldecott  | –  | –  | 23:46\nClockwise Loop  | 05:34  | 05:55  | 22:52\nMarina Bay  | –  | –  | 23:06\nMountbatten  | –  | –  | 23:45\nBartley  | –  | –  | 00:06\n\n* * *"
+    },
+    {
+      "stationId": "mrt-lakeside",
+      "name": "Lakeside",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Lakeside",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:37  | 06:07  | 23:37\nChangi Airport via Tanah Merah  | –  | –  | 22:52\nTuas Link  | 05:18  | 05:48  | 00:29\n\n* * *"
+    },
+    {
+      "stationId": "mrt-lavender",
+      "name": "Lavender",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Lavender",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 06:05  | 06:33  | 00:15\nChangi Airport via Tanah Merah  | –  | –  | 23:31\nTuas Link  | 05:54  | 06:20  | 23:50\n\n* * *"
+    },
+    {
+      "stationId": "mrt-lentor",
+      "name": "Lentor",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Lentor",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 06:01  | 06:21  | 00:32\nBayshore  | 05:41  | 06:01  | 23:42\nMarine Terrace  | –  | –  | 23:48\nGardens by the Bay  | –  | –  | 23:54\nOutram Park  | –  | –  | 00:00\nOrchard  | –  | –  | 00:12\nCaldecott  | –  | –  | 00:18\n\n* * *"
+    },
+    {
+      "stationId": "mrt-lorong-chuan",
+      "name": "Lorong Chuan",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Lorong%20Chuan",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:20  | 05:43  | 23:15\nPasir Panjang  | –  | –  | 23:43\none-north  | –  | –  | 00:00\nCaldecott  | –  | –  | 00:31\nClockwise Loop  | 05:42  | 06:09  | 23:23\nMarina Bay  | –  | –  | 23:37\nMountbatten  | –  | –  | 00:15\nBartley  | –  | –  | 00:37\n\n* * *"
+    },
+    {
+      "stationId": "mrt-macpherson",
+      "name": "MacPherson",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=MacPherson",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:36  | 06:10  | 23:05\nPasir Panjang  | –  | –  | 23:34\none-north  | –  | –  | 23:51\nCaldecott  | –  | –  | 00:22\nTai Seng  | –  | –  | 00:28\nClockwise Loop  | 05:38  | 06:04  | –\nBartley  | –  | –  | 23:32\nMarina Bay  | –  | –  | 23:47\nMountbatten  | –  | –  | 00:24\n\nDowntown Line (SBS Transit)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nBukit Panjang  | 05:56  | 06:14  | 00:00\nExpo  | 06:03  | 06:23  | 00:24\n\n* * *"
+    },
+    {
+      "stationId": "mrt-marina-bay",
+      "name": "Marina Bay",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Marina%20Bay",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 06:01  | 06:01  | 06:26  | 23:50\nKranji  | –  | –  | –  | 00:06\nMarina South Pier  | 06:05  | 06:05  | 06:32  | 23:58\n\nCircle Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:58  | 06:23  | 22:48\nPasir Panjang  | –  | –  | 23:16\none-north  | –  | –  | 23:33\nCaldecott  | –  | –  | 00:03\nTai Seng  | –  | –  | 00:09\nClockwise Loop  | 05:59  | 06:23  | –\nBartley  | –  | –  | 23:52\n\nThomson-East Coast Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 06:02  | 06:22  | 00:02\nCaldecott  | –  | –  | 00:14\nOrchard  | –  | –  | 00:20\nBayshore  | 06:01  | 06:21  | 00:14\nMarine Terrace  | –  | –  | 00:19\nGardens by the Bay  | –  | –  | 00:25\n\n* * *"
+    },
+    {
+      "stationId": "mrt-marina-south-pier",
+      "name": "Marina South Pier",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Marina%20South%20Pier",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 06:10  | 06:10  | 06:38  | 23:48\nKranji  | –  | –  | –  | 00:04\n\n* * *"
+    },
+    {
+      "stationId": "mrt-marine-parade",
+      "name": "Marine Parade",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Marine%20Parade",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:58  | 06:18  | 23:48\nCaldecott  | –  | –  | 00:00\nOrchard  | –  | –  | 00:06\nGardens by the Bay  | –  | –  | 00:12\nBayshore  | 06:07  | 06:27  | 00:27\nMarine Terrace  | –  | –  | 00:32\n\n* * *"
+    },
+    {
+      "stationId": "mrt-marine-terrace",
+      "name": "Marine Terrace",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Marine%20Terrace",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:56  | 06:16  | 23:46\nCaldecott  | –  | –  | 23:58\nOrchard  | –  | –  | 00:04\nGardens by the Bay  | –  | –  | 00:10\nBayshore  | 06:03  | 06:23  | 00:29\n\n* * *"
+    },
+    {
+      "stationId": "mrt-marsiling",
+      "name": "Marsiling",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Marsiling",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 05:40  | 05:40  | 06:03  | 00:43\nKranji  | –  | –  | –  | 00:58\nMarina South Pier  | 05:24  | 05:24  | 05:40  | 23:06\nToa Payoh  | –  | –  | –  | 23:48\nAng Mo Kio  | –  | –  | –  | 00:37\n\n* * *"
+    },
+    {
+      "stationId": "mrt-marymount",
+      "name": "Marymount",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Marymount",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:26  | 05:49  | 23:20\nPasir Panjang  | –  | –  | 23:48\none-north  | –  | –  | 00:06\nCaldecott  | –  | –  | 00:37\nClockwise Loop  | 05:36  | 06:04  | 23:17\nMarina Bay  | –  | –  | 23:32\nMountbatten  | –  | –  | 00:10\nBartley  | –  | –  | 00:32\n\n* * *"
+    },
+    {
+      "stationId": "mrt-maxwell",
+      "name": "Maxwell",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Maxwell",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 06:06  | 06:26  | 00:05\nCaldecott  | –  | –  | 00:17\nOrchard  | –  | –  | 00:23\nBayshore  | 05:58  | 06:18  | 00:10\nMarine Terrace  | –  | –  | 00:15\nGardens by the Bay  | –  | –  | 00:21\n\n* * *"
+    },
+    {
+      "stationId": "mrt-mayflower",
+      "name": "Mayflower",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Mayflower",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:59  | 06:19  | 00:30\nBayshore  | 05:44  | 06:04  | 23:45\nMarine Terrace  | –  | –  | 23:51\nGardens by the Bay  | –  | –  | 23:57\nOutram Park  | –  | –  | 00:03\nOrchard  | –  | –  | 00:15\nCaldecott  | –  | –  | 00:21\n\n* * *"
+    },
+    {
+      "stationId": "mrt-mountbatten",
+      "name": "Mountbatten",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Mountbatten",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:29  | 06:03  | 22:58\nPasir Panjang  | –  | –  | 23:27\none-north  | –  | –  | 23:44\nCaldecott  | –  | –  | 00:15\nTai Seng  | –  | –  | 00:21\nClockwise Loop  | 05:44  | 06:11  | –\nBartley  | –  | –  | 23:39\nMarina Bay  | –  | –  | 23:53\n\n* * *"
+    },
+    {
+      "stationId": "mrt-napier",
+      "name": "Napier",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Napier",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:56  | 06:16  | 00:16\nCaldecott  | –  | –  | 00:28\nBayshore  | 05:54  | 06:14  | 23:59\nMarine Terrace  | –  | –  | 00:04\nGardens by the Bay  | –  | –  | 00:10\nOutram Park  | –  | –  | 00:16\nOrchard  | –  | –  | 00:28\n\n* * *"
+    },
+    {
+      "stationId": "mrt-newton",
+      "name": "Newton",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Newton",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 05:59  | 06:13  | 06:20  | 00:04\nKranji  | –  | –  | –  | 00:20\nMarina South Pier  | 05:46  | 05:46  | 06:11  | 23:44\n\nDowntown Line (SBS Transit)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nBukit Panjang  | 05:56  | 06:16  | 00:28\nExpo  | 05:51  | 06:11  | 23:55\n\n* * *"
+    },
+    {
+      "stationId": "mrt-nicoll-highway",
+      "name": "Nicoll Highway",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Nicoll%20Highway",
+      "text": "Circle Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nAnticlockwise Loop  | 06:04  | 06:04  | 06:30  | 22:54\nPasir Panjang  | –  | –  | –  | 23:23\none-north  | –  | –  | –  | 23:40\nCaldecott  | –  | –  | –  | 00:11\nTai Seng  | –  | –  | –  | 00:16\nStadium  | –  | 05:44  | 06:12  | 00:04\nPrince Edward Road  | 05:44  | –  | –  | –\nClockwise Loop  | 05:48  | 05:48  | 06:15  | –\nBartley  | –  | –  | –  | 23:43\nDhoby Ghaut  | 05:52  | 05:52  | 06:12  | 23:54\nMarina Bay  | –  | –  | –  | 23:58\n* * *"
+    },
+    {
+      "stationId": "mrt-novena",
+      "name": "Novena",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Novena",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 06:01  | 06:16  | 06:22  | 00:07\nKranji  | –  | –  | –  | 00:22\nMarina South Pier  | 05:44  | 05:44  | 06:08  | 23:41\n\n* * *"
+    },
+    {
+      "stationId": "mrt-one-north",
+      "name": "one-north",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=one-north",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:43  | 06:05  | –\nCaldecott  | –  | –  | 23:37\nPasir Panjang  | –  | –  | 00:04\nClockwise Loop  | 05:37  | 05:58  | 23:01\nMarina Bay  | –  | –  | 23:15\nMountbatten  | –  | –  | 23:54\nBartley  | –  | –  | 00:15\n\n* * *"
+    },
+    {
+      "stationId": "mrt-orchard",
+      "name": "Orchard",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Orchard",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 06:11  | 06:11  | 06:36  | 00:02\nKranji  | –  | –  | –  | 00:17\nMarina South Pier  | 05:48  | 05:48  | 06:13  | 23:46\n\nThomson-East Coast Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:52  | 06:12  | 00:13\nCaldecott  | –  | –  | 00:25\nBayshore  | 05:55  | 06:18  | 00:03\nMarine Terrace  | –  | –  | 00:08\nGardens by the Bay  | –  | –  | 00:14\nOutram Park  | –  | –  | 00:20\n\n* * *"
+    },
+    {
+      "stationId": "mrt-orchard-boulevard",
+      "name": "Orchard Boulevard",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Orchard%20Boulevard",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:54  | 06:14  | 00:14\nCaldecott  | –  | –  | 00:26\nBayshore  | 05:56  | 06:16  | 00:01\nMarine Terrace  | –  | –  | 00:06\nGardens by the Bay  | –  | –  | 00:12\nOutram Park  | –  | –  | 00:18\nOrchard  | –  | –  | 00:30\n\n* * *"
+    },
+    {
+      "stationId": "mrt-outram-park",
+      "name": "Outram Park",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Outram%20Park",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:54  | 06:22  | 00:03\nChangi Airport via Tanah Merah  | –  | –  | 23:19\nTuas Link  | 06:04  | 06:30  | 00:02\n\nNorth East Line (SBS Transit)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nHarbourFront  | 06:12  | 06:32  | 23:58\nPunggol Coast  | 05:48  | 06:08  | 23:59\n\nThomson-East Coast Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 06:07  | 06:27  | 00:07\nCaldecott  | –  | –  | 00:19\nOrchard  | –  | –  | 00:25\nBayshore  | 05:56  | 06:16  | 00:09\nMarine Terrace  | –  | –  | 00:14\nGardens by the Bay  | –  | –  | 00:20\n\n* * *"
+    },
+    {
+      "stationId": "mrt-pasir-panjang",
+      "name": "Pasir Panjang",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Pasir%20Panjang",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:40  | 06:04  | –\nCaldecott  | –  | –  | 23:43\nClockwise Loop  | 05:30  | 05:52  | 22:54\nMarina Bay  | –  | –  | 23:08\nMountbatten  | –  | –  | 23:47\nBartley  | –  | –  | 00:09\n\n* * *"
+    },
+    {
+      "stationId": "mrt-pasir-ris",
+      "name": "Pasir Ris",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Pasir%20Ris",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nTuas Link  | 05:28  | 05:54  | 23:23\nChangi Airport via Tanah Merah  | –  | –  | 23:23\n\n* * *"
+    },
+    {
+      "stationId": "mrt-paya-lebar",
+      "name": "Paya Lebar",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Paya%20Lebar",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 06:12  | 06:40  | 00:22\nChangi Airport via Tanah Merah  | –  | –  | 23:38\nTuas Link  | 05:47  | 06:13  | 23:43\n\nCircle Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:33  | 06:07  | 23:03\nPasir Panjang  | –  | –  | 23:32\none-north  | –  | –  | 23:49\nCaldecott  | –  | –  | 00:19\nTai Seng  | –  | –  | 00:25\nClockwise Loop  | 05:40  | 06:07  | –\nBartley  | –  | –  | 23:35\nMarina Bay  | –  | –  | 23:49\nMountbatten  | –  | –  | 00:27\n\n* * *"
+    },
+    {
+      "stationId": "mrt-pioneer",
+      "name": "Pioneer",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Pioneer",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:32  | 06:02  | 23:32\nChangi Airport via Tanah Merah  | –  | –  | 22:47\nTuas Link  | 05:23  | 05:53  | 00:35\n\n* * *"
+    },
+    {
+      "stationId": "mrt-promenade",
+      "name": "Promenade",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Promenade",
+      "text": "Circle Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nAnticlockwise Loop  | 06:02  | 06:02  | 06:28  | 22:52\nPasir Panjang  | –  | –  | –  | 23:21\none-north  | –  | –  | –  | 23:38\nCaldecott  | –  | –  | –  | 00:09\nTai Seng  | –  | –  | –  | 00:14\nStadium  | –  | 05:42  | 06:10  | 00:02\nPrince Edward Road  | 05:42  | –  | –  | –\nClockwise Loop  | 05:51  | 05:51  | 06:18  | –\nBartley  | –  | –  | –  | 23:45\nDhoby Ghaut  | 05:54  | 05:54  | 06:14  | 23:56\nMarina Bay  | –  | –  | –  | 00:00\nDowntown Line (SBS Transit)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nBukit Panjang  | 06:17  | 06:35  | 00:20\nExpo  | 06:00  | 06:20  | 00:03\n\n* * *"
+    },
+    {
+      "stationId": "mrt-queenstown",
+      "name": "Queenstown",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Queenstown",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:47  | 06:15  | 23:55\nChangi Airport via Tanah Merah  | –  | –  | 23:11\nTuas Link  | 06:12  | 06:38  | 00:10\n\n* * *"
+    },
+    {
+      "stationId": "mrt-raffles-place",
+      "name": "Raffles Place",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Raffles%20Place",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 06:03  | 06:03  | 06:28  | 23:53\nKranji  | –  | –  | –  | 00:08\nMarina South Pier  | 05:56  | 05:56  | 06:21  | 23:55\n\nEast-West Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:59  | 06:27  | 00:08\nChangi Airport via Tanah Merah  | –  | –  | 23:24\nTuas Link  | 06:00  | 06:26  | 23:58\n\n* * *"
+    },
+    {
+      "stationId": "mrt-redhill",
+      "name": "Redhill",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Redhill",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:49  | 06:17  | 23:58\nChangi Airport via Tanah Merah  | –  | –  | 23:14\nTuas Link  | 06:09  | 06:35  | 00:08\n\n* * *"
+    },
+    {
+      "stationId": "mrt-sembawang",
+      "name": "Sembawang",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Sembawang",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 05:32  | 05:32  | 05:55  | 00:34\nKranji  | –  | –  | –  | 00:49\nMarina South Pier  | 05:33  | 05:33  | 05:49  | 23:19\nToa Payoh  | –  | –  | –  | 23:56\nAng Mo Kio  | –  | –  | –  | 00:45\n\n* * *"
+    },
+    {
+      "stationId": "mrt-serangoon",
+      "name": "Serangoon",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Serangoon",
+      "text": "North East Line (SBS Transit)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nHarbourFront  | 05:54  | 06:14  | 23:40\nPunggol Coast  | 06:06  | 06:26  | 00:17\n\nCircle Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:18  | 05:41  | 23:13\nPasir Panjang  | –  | –  | 23:41\none-north  | –  | –  | 23:58\nCaldecott  | –  | –  | 00:29\nClockwise Loop  | 05:45  | 06:11  | 23:25\nMarina Bay  | –  | –  | 23:40\nMountbatten  | –  | –  | 00:17\nBartley  | –  | –  | 00:40\n\n* * *"
+    },
+    {
+      "stationId": "mrt-shenton-way",
+      "name": "Shenton Way",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Shenton%20Way",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 06:04  | 06:24  | 00:03\nCaldecott  | –  | –  | 00:15\nOrchard  | –  | –  | 00:21\nBayshore  | 05:59  | 06:19  | 00:12\nMarine Terrace  | –  | –  | 00:17\nGardens by the Bay  | –  | –  | 00:23\n\n* * *"
+    },
+    {
+      "stationId": "mrt-siglap",
+      "name": "Siglap",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Siglap",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:58  | 06:18  | 23:44\nCaldecott  | –  | –  | 23:56\nOrchard  | –  | –  | 00:02\nGardens by the Bay  | –  | –  | 00:08\nMarine Terrace  | –  | –  | 00:22\nBayshore  | 06:05  | 06:25  | 00:31\n\n* * *"
+    },
+    {
+      "stationId": "mrt-simei",
+      "name": "Simei",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Simei",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:19  | 05:45  | 00:37\nTuas Link  | 05:34  | 06:00  | 23:29\nChangi Airport via Tanah Merah  | –  | –  | 23:29\n\n* * *"
+    },
+    {
+      "stationId": "mrt-somerset",
+      "name": "Somerset",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Somerset",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 06:09  | 06:09  | 06:34  | 23:59\nKranji  | –  | –  | –  | 00:15\nMarina South Pier  | 05:50  | 05:50  | 06:15  | 23:48\n\n* * *"
+    },
+    {
+      "stationId": "mrt-springleaf",
+      "name": "Springleaf",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Springleaf",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 06:04  | 06:24  | 00:35\nBayshore  | 05:38  | 05:58  | 23:39\nMarine Terrace  | –  | –  | 23:45\nGardens by the Bay  | –  | –  | 23:51\nOutram Park  | –  | –  | 23:57\nOrchard  | –  | –  | 00:09\nCaldecott  | –  | –  | 00:15\n\n* * *"
+    },
+    {
+      "stationId": "mrt-stadium",
+      "name": "Stadium",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Stadium",
+      "text": "Circle Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nAnticlockwise Loop  | 06:07  | 06:07  | 06:33  | 22:56\nPasir Panjang  | –  | –  | –  | 23:25\none-north  | –  | –  | –  | 23:42\nCaldecott  | –  | –  | –  | 00:13\nTai Seng  | –  | –  | –  | 00:19\nPrince Edward Road  | 05:47  | –  | –  | –\nClockwise Loop  | 05:46  | 05:46  | 06:13  | –\nBartley  | –  | –  | –  | 23:41\nDhoby Ghaut  | 05:50  | 05:50  | 06:09  | 23:52\nMarina Bay  | –  | –  | –  | 23:55\n* * *"
+    },
+    {
+      "stationId": "mrt-stevens",
+      "name": "Stevens",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Stevens",
+      "text": "Downtown Line (SBS Transit)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nBukit Panjang  | 05:58  | 06:18  | 00:30\nExpo  | 05:48  | 06:08  | 23:53\n\nThomson-East Coast Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:59  | 06:19  | 00:19\nCaldecott  | –  | –  | 00:31\nBayshore  | 05:51  | 06:11  | 23:56\nMarine Terrace  | –  | –  | 00:02\nGardens by the Bay  | –  | –  | 00:08\nOutram Park  | –  | –  | 00:14\nOrchard  | –  | –  | 00:26\n\n* * *"
+    },
+    {
+      "stationId": "mrt-tai-seng",
+      "name": "Tai Seng",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Tai%20Seng",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:38  | 06:12  | 23:07\nPasir Panjang  | –  | –  | 23:36\none-north  | –  | –  | 23:53\nCaldecott  | –  | –  | 00:24\nClockwise Loop  | 05:35  | 06:02  | –\nBartley  | –  | –  | 23:30\nMarina Bay  | –  | –  | 23:44\nMountbatten  | –  | –  | 00:22\n\n* * *"
+    },
+    {
+      "stationId": "mrt-tampines",
+      "name": "Tampines",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Tampines",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:22  | 05:48  | 00:39\nTuas Link  | 05:31  | 05:57  | 23:26\nChangi Airport via Tanah Merah  | –  | –  | 23:26\n\nDowntown Line (SBS Transit)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nBukit Panjang  | 05:43  | 06:01  | 23:47\nExpo  | 06:16  | 06:36  | 00:36\n* * *"
+    },
+    {
+      "stationId": "mrt-tanah-merah",
+      "name": "Tanah Merah",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Tanah%20Merah",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:16  | 05:42  | 00:33\nTuas Link  | 05:37  | 06:03  | 23:33\nChangi Airport  | 05:20  | 05:47  | 23:50\n\n* * *"
+    },
+    {
+      "stationId": "mrt-tanjong-katong",
+      "name": "Tanjong Katong",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Tanjong%20Katong",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 06:00  | 06:20  | 23:50\nCaldecott  | –  | –  | 00:02\nOrchard  | –  | –  | 00:08\nGardens by the Bay  | –  | –  | 00:14\nBayshore  | 06:05  | 06:25  | 00:25\nMarine Terrace  | –  | –  | 00:30\n\n* * *"
+    },
+    {
+      "stationId": "mrt-tanjong-pagar",
+      "name": "Tanjong Pagar",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Tanjong%20Pagar",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:56  | 06:24  | 00:05\nChangi Airport via Tanah Merah  | –  | –  | 23:21\nTuas Link  | 06:02  | 06:28  | 00:00\n\n* * *"
+    },
+    {
+      "stationId": "mrt-tanjong-rhu",
+      "name": "Tanjong Rhu",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Tanjong%20Rhu",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 06:04  | 06:24  | 23:55\nCaldecott  | –  | –  | 00:07\nOrchard  | –  | –  | 00:13\nGardens by the Bay  | –  | –  | 00:19\nBayshore  | 06:00  | 06:20  | 00:21\nMarine Terrace  | –  | –  | 00:26\n\n* * *"
+    },
+    {
+      "stationId": "mrt-telok-blangah",
+      "name": "Telok Blangah",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Telok%20Blangah",
+      "text": "Circle Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nAnticlockwise Loop  | 05:44  | 06:08  | –\nCaldecott  | –  | –  | 23:47\nClockwise Loop  | 05:32  | 05:53  | 22:50\nMarina Bay  | –  | –  | 23:04\nMountbatten  | –  | –  | 23:43\nBartley  | –  | –  | 00:04\n\n* * *"
+    },
+    {
+      "stationId": "mrt-tiong-bahru",
+      "name": "Tiong Bahru",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Tiong%20Bahru",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:52  | 06:20  | 00:00\nChangi Airport via Tanah Merah  | –  | –  | 23:16\nTuas Link  | 06:07  | 06:33  | 00:05\n\n* * *"
+    },
+    {
+      "stationId": "mrt-toa-payoh",
+      "name": "Toa Payoh",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Toa%20Payoh",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 06:04  | 06:18  | 06:25  | 00:09\nKranji  | –  | –  | –  | 00:25\nMarina South Pier  | 05:41  | 05:41  | 06:06  | 23:39\n\n* * *"
+    },
+    {
+      "stationId": "mrt-tuas-crescent",
+      "name": "Tuas Crescent",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Tuas%20Crescent",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:23  | 05:53  | 23:23\nChangi Airport via Tanah Merah  | –  | –  | 22:38\nTuas Link  | 05:32  | 06:02  | 00:44\n\n* * *"
+    },
+    {
+      "stationId": "mrt-tuas-link",
+      "name": "Tuas Link",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Tuas%20Link",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:19  | 05:49  | 23:19\nChangi Airport via Tanah Merah  | –  | –  | 22:34\n\n* * *"
+    },
+    {
+      "stationId": "mrt-tuas-west-road",
+      "name": "Tuas West Road",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Tuas%20West%20Road",
+      "text": "East-West Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nPasir Ris  | 05:21  | 05:51  | 23:22\nChangi Airport via Tanah Merah  | –  | –  | 22:36\nTuas Link  | 05:35  | 06:05  | 00:46\n\n* * *"
+    },
+    {
+      "stationId": "mrt-upper-thomson",
+      "name": "Upper Thomson",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Upper%20Thomson",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:54  | 06:14  | 00:26\nBayshore  | 05:48  | 06:08  | 23:49\nMarine Terrace  | –  | –  | 23:55\nGardens by the Bay  | –  | –  | 00:01\nOutram Park  | –  | –  | 00:07\nOrchard  | –  | –  | 00:19\nCaldecott  | –  | –  | 00:25\n\n* * *"
+    },
+    {
+      "stationId": "mrt-woodlands",
+      "name": "Woodlands",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Woodlands",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 05:38  | 05:38  | 06:01  | 00:40\nKranji  | –  | –  | –  | 00:55\nMarina South Pier  | 05:27  | 05:27  | 05:43  | 23:08\nToa Payoh  | –  | –  | –  | 23:50\nAng Mo Kio  | –  | –  | –  | 00:39\n\nThomson-East Coast Line (SMRT Trains)\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:39  | 05:59  | 00:42\nBayshore  | 05:38  | 05:58  | 23:33\nMarine Terrace  | –  | –  | 23:38\nGardens by the Bay  | –  | –  | 23:44\nOutram Park  | –  | –  | 23:50\nOrchard  | –  | –  | 00:02\nCaldecott  | –  | –  | 00:08\n\n* * *"
+    },
+    {
+      "stationId": "mrt-woodlands-north",
+      "name": "Woodlands North",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Woodlands%20North",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nBayshore  | 05:36  | 05:56  | 23:30\nMarine Terrace  | –  | –  | 23:36\nGardens by the Bay  | –  | –  | 23:42\nOutram Park  | –  | –  | 23:48\nOrchard  | –  | –  | 00:00\nCaldecott  | –  | –  | 00:06\n\n* * *"
+    },
+    {
+      "stationId": "mrt-woodlands-south",
+      "name": "Woodlands South",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Woodlands%20South",
+      "text": "Thomson-East Coast Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Sat  | Sun & PH  | Daily\n--- | --- | ---\nWoodlands North  | 05:36  | 05:56  | 00:40\nBayshore  | 05:40  | 06:00  | 23:35\nMarine Terrace  | –  | –  | 23:41\nGardens by the Bay  | –  | –  | 23:47\nOutram Park  | –  | –  | 23:53\nOrchard  | –  | –  | 00:05\nCaldecott  | –  | –  | 00:11\n\n* * *"
+    },
+    {
+      "stationId": "mrt-yew-tee",
+      "name": "Yew Tee",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Yew%20Tee",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 05:37  | 05:37  | 06:00  | 00:50\nMarina South Pier  | 05:27  | 05:27  | 05:46  | 22:58\nToa Payoh  | –  | –  | –  | 23:40\nAng Mo Kio  | –  | –  | –  | 00:29\n\n* * *"
+    },
+    {
+      "stationId": "mrt-yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Yio%20Chu%20Kang",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nYishun  | 05:09  | 05:09  | –  | –\nJurong East  | 05:19  | 05:19  | 05:42  | 00:20\nKranji  | –  | –  | –  | 00:36\nMarina South Pier  | 05:31  | 05:31  | 06:02  | 23:28\nToa Payoh  | –  | –  | –  | 00:10\nAng Mo Kio  | –  | –  | –  | 00:59\n\n* * *"
+    },
+    {
+      "stationId": "mrt-yishun",
+      "name": "Yishun",
+      "url": "https://www.sgtrains.com/guide-traintiming?station=Yishun",
+      "text": "North-South Line (SMRT Trains)\n\nTrain to  | First train  | Last train\n--- | --- | ---\nMon–Fri  | Sat  | Sun & PH  | Daily\n--- | --- | --- | ---\nJurong East  | 05:27  | 05:27  | 05:50  | 00:28\nKranji  | –  | –  | –  | 00:44\nMarina South Pier  | 05:24  | 05:24  | 05:54  | 23:20\nToa Payoh  | –  | –  | –  | 00:02\nAng Mo Kio  | –  | –  | –  | 00:51\n\n* * *"
+    }
+  ]
+}

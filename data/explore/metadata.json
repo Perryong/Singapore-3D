@@ -1,0 +1,51 @@
+{
+  "fetched": "2026-09-24T17:50:30.420518+00:00",
+  "osmTimestamp": "2026-05-31T22:37:44Z",
+  "counts": {
+    "food": 8386,
+    "stations": 143,
+    "exits": 528,
+    "lines": 6
+  },
+  "sources": {
+    "hawkers": "https://data.gov.sg/datasets/d_4a086da0a5553be1d89383cd90d07ecd/view",
+    "food": "https://www.openstreetmap.org/copyright",
+    "stations": "https://datamall.lta.gov.sg/content/datamall/en/static-data.html",
+    "exits": "https://datamall.lta.gov.sg/content/datamall/en/static-data.html",
+    "rail": "https://www.openstreetmap.org/copyright"
+  },
+  "coverage": "Named food places mapped by NEA and OpenStreetMap; not an exhaustive stall directory. MRT markers are interior points of LTA footprints matched to its code list; only matched stations and exits are included. OSM routes may be newer than LTA station coverage. Not live service information.",
+  "railFetched": "2026-09-26T04:48:50.455591+00:00",
+  "railInputs": {
+    "lta": {
+      "stations": "https://datamall.lta.gov.sg/content/dam/datamall/datasets/Geospatial/TrainStation_Mar2026.zip",
+      "exits": "https://datamall.lta.gov.sg/content/dam/datamall/datasets/Geospatial/TrainStationExit.zip",
+      "codes": "https://datamall.lta.gov.sg/content/dam/datamall/datasets/Geospatial/Train%20Station%20Codes%20and%20Chinese%20Names.zip"
+    },
+    "osmRelations": {
+      "NS": [
+        2312797
+      ],
+      "EW": [
+        2312796,
+        7981690
+      ],
+      "NE": [
+        2293545
+      ],
+      "CC": [
+        2076291,
+        7981669
+      ],
+      "DT": [
+        2313458
+      ],
+      "TE": [
+        2383439
+      ]
+    },
+    "ltaStationEdition": "March 2026",
+    "ltaCodeEdition": "January 2025",
+    "ltaExitEdition": "July 2026"
+  }
+}
