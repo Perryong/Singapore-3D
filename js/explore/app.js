@@ -203,12 +203,12 @@ function select(feature, fly = true) {
  if (railPlace) box.append(codes(p.codes));
  box.append(el('p', 'detail-address', p.address || (railPlace ? 'Explore the neighbourhood around this station.' : 'Address not recorded in the source. Select the map link for its location.')));
  const facts = el('div', 'detail-facts');
- for (const [label, value] of [['Diet', p.diet === 'vegan' ? 'Vegan venue' : p.diet === 'vegetarian' ? 'Vegetarian venue' : ''], ['Dietary evidence', p.dietEvidence], ['Cuisine', p.cuisine], ['Food stalls at this centre', p.stalls ? String(p.stalls) : ''], ['Recorded opening hours', p.hours], ['Source', p.source]]) {
+ for (const [label, value] of [['Diet', p.diet === 'vegan' ? 'Vegan venue' : p.diet === 'vegetarian' ? 'Vegetarian venue' : ''], ['Dietary evidence', p.dietEvidence], ['Listing checked', p.verifiedAt], ['Map location', p.locationPrecision], ['Cuisine', p.cuisine], ['Food stalls at this centre', p.stalls ? String(p.stalls) : ''], ['Recorded opening hours', p.hours], ['Source', p.source]]) {
   if (!value) continue;
   const fact = el('p', 'fact'); fact.append(el('span', 'fact-label', label), document.createTextNode(value)); facts.append(fact);
  }
  box.append(facts);
- if (p.dietSource && /^https:\/\/(www\.)?(openstreetmap\.org|gokulraasvegetarian\.com\.sg)\//.test(p.dietSource)) {
+ if (p.dietSource && /^https:\/\/(www\.)?(openstreetmap\.org|gokulraasvegetarian\.com\.sg|greendot\.sg|orders\.greendot\.sg|veganburg\.com|nomvnom\.com|railmall\.com\.sg|fortunecentre\.sg)\//.test(p.dietSource)) {
   const source = el('a', 'external', 'View dietary source ↗'); source.href = p.dietSource; source.target = '_blank'; source.rel = 'noopener noreferrer'; box.append(source);
  }
 

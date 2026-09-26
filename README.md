@@ -197,3 +197,20 @@ alternative capture. The importer requires every mapped SMRT station and line,
 checks daily last-train headers, and rejects malformed times or duplicate pages.
 SBS refreshes preserve this captured SMRT coverage. CG/CE station codes map to
 East-West/Circle lines without changing the map geometry. LRT is out of scope.
+
+### Researched vegetarian additions
+
+The Vegetarian filter also includes 11 official Greendot listings reviewed on
+26 September 2026: ten new food/bakery locations and the existing Tampines 1
+venue with its missing dietary tag restored. These bring the filter to 86
+vegetarian/vegan places. Sources are the official outlet map and ordering
+directory; the new pins use operator-supplied coordinates, not shop entrances.
+Addresses include unit numbers where published. Hours are left blank unless
+already available, rather than inferred.
+
+`data/explore/vegetarian-venues.geojson` preserves these curated records across
+food refreshes. Records replace matching IDs, making repeated imports idempotent;
+when adding a venue already mapped, reuse its existing OSM ID to avoid duplicate
+pins. Each record carries dietary evidence, a source link and review date.
+
+A follow-up review corrected six existing records (17 records now have website review dates). See [vegetarian review](docs/data-audits/2026-09-26-vegetarian-review.md) for evidence and the 69 records still awaiting fresh operator review. The map contains 86 vegetarian/vegan storefront records, including two separately identified Pine Tree Cafe units.
