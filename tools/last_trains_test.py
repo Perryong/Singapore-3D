@@ -17,3 +17,25 @@ try: parse_sbs(html.replace('Last Trains','Unknown column'))
 except ValueError: pass
 else: raise AssertionError('Changed headers must fail')
 print('Last-train parser checks passed')
+import json
+stations = json.loads(Path('data/explore/stations.geojson').read_text())['features']
+for bad in [records + [records[0]], [dict(records[0], stationCode='DT999')]]:
+    try: build_snapshot(bad, stations, {})
+    except ValueError: pass
+    else: raise AssertionError('Unknown code / duplicate accepted')
+# Failed refreshes must not replace a working snapshot.
+import tempfile, sys
+import fetch_last_trains as importer
+old_root, old_args = importer.ROOT, sys.argv
+with tempfile.TemporaryDirectory() as directory:
+    root = Path(directory); (root/'data/explore').mkdir(parents=True)
+    output = root/'data/explore/last-trains.json'; output.write_text('previous snapshot')
+    (root/'data/explore/stations.geojson').write_text(json.dumps({'features':stations}))
+    invalid = root/'bad.html'; invalid.write_text('changed layout')
+    importer.ROOT = root; sys.argv = ['fetch_last_trains.py','--cached',str(invalid)]
+    try: importer.main()
+    except ValueError: pass
+    else: raise AssertionError('Invalid source accepted')
+    assert output.read_text() == 'previous snapshot'
+importer.ROOT, sys.argv = old_root, old_args
+print('Import rejection and snapshot preservation checks passed')

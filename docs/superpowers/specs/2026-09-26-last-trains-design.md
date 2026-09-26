@@ -1,6 +1,6 @@
 # Singapore last-train map
 
-Status: concept approved; written specification awaiting review.
+Status: approved and implemented locally. Initial published coverage: Downtown and North East lines, 50 stations; SMRT and exceptional-date coverage explicitly unavailable/unverified.
 
 ## Intent and scope
 
