@@ -34,7 +34,11 @@ if (poster) {
   explore.className = 'cta';
   explore.href = './explore.html';
   explore.textContent = 'Find food & MRT stations \u2192';
-  row.append(link, wx, explore);
+  const atlas = document.createElement('a');
+  atlas.className = 'cta';
+  atlas.href = './atlas/';
+  atlas.textContent = 'Explore district atlas →';
+  row.append(link, atlas, wx, explore);
   const hint = document.createElement('p');
   hint.className = 'view-hint';
   hint.textContent = 'Open the interactive sheet: rotate the stack, pull the layers apart, click anything for its data.';
